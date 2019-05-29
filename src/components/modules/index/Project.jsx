@@ -1,0 +1,42 @@
+import {
+  React,
+  styled,
+  Section,
+  Btn
+} from '../../../../config/imports'
+
+import Honey from '../../../media/images/hoover-honey.jpg'
+
+const StyledCall = styled.div`
+  padding: var(--lg);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+`
+
+const StyledImg = styled.img`
+  width: 100%;
+  margin: auto;
+  border-radius: 5px;
+`
+
+export default () => (
+  <Section xl right>
+    <StyledCall>
+      <caption>My most recent project</caption>
+      <h2>Hoover Honey</h2>
+      <p>
+        I designed a progressive web app for Hoover Honey,
+        creating their online presence and increasing
+        awareness of the company in the process
+      </p>
+      <Btn
+        primary
+        link='/portfolio'
+        content='See Portfolio'
+      />
+    </StyledCall>
+    <StyledImg src={Honey} alt='Placeholder' />
+  </Section>
+)
