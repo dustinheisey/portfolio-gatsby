@@ -1,7 +1,8 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
-import styled from 'styled-components'
-import Link from '../../elements/atoms/Link'
+import {
+  React,
+  styled,
+  Link
+} from '../../../../config/imports'
 
 import Dropdown from '../../../media/svg/inline/dropdown.svg'
 import DropdownLight from '../../../media/svg/inline/dropdown-light.svg'

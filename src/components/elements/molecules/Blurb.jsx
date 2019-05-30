@@ -1,5 +1,4 @@
-/* eslint-disable no-nested-ternary */
-import styled from 'styled-components'
+import { styled } from '../../../../config/imports'
 
 export default styled.div`
   display: flex;

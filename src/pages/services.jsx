@@ -3,6 +3,7 @@ import { React, Cover, SEO } from '../../config/imports'
 import Maintenance from '../components/modules/services/Maintenance'
 import WebDesign from '../components/modules/services/WebDesign'
 import PWA from '../components/modules/services/PWA'
+
 import Forest from '../media/images/misty-forest.jpg'
 
 export default () => (

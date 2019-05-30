@@ -1,12 +1,14 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
-import styled from 'styled-components'
-import NavMobile from './NavMobile'
-import NavDesktop from './Nav'
-import Btn from '../../elements/atoms/Btn'
 import Logo from '../../../media/svg/logo.svg'
 import LogoLight from '../../../media/svg/logo-light.svg'
-import { media } from '../../../../config/global'
+
+import {
+  React,
+  styled,
+  NavMobile,
+  NavDesktop,
+  Btn,
+  media
+} from '../../../../config/imports'
 
 const StyledHeader = styled.header`
   background: transparent;

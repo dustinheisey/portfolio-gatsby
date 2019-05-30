@@ -1,6 +1,8 @@
-import React from 'react'
-import styled from 'styled-components'
-import Link from './Link'
+import {
+  React,
+  styled,
+  Link
+} from '../../../../config/imports'
 
 const StyledButton = styled.button`
   border-radius: 5px;
@@ -38,7 +40,8 @@ const StyledOutline = styled(StyledButton)`
 const StyledText = styled(StyledButton)`
   border: none;
   background: transparent;
-  color:  ${props => props.light ? 'var(--text-lighter)' : 'var(--primary)'};
+  color: ${props =>
+    props.light ? 'var(--text-lighter)' : 'var(--primary)'};
   padding: 0;
 
   &:hover {
@@ -60,7 +63,9 @@ const Btn = ({
   if (text) {
     return (
       <Link to={link} external={external} anchor={anchor}>
-        <StyledText type='button' light={light}>{content}</StyledText>
+        <StyledText type='button' light={light}>
+          {content}
+        </StyledText>
       </Link>
     )
   }

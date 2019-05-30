@@ -1,6 +1,7 @@
 import { React, Cover, SEO } from '../../config/imports'
 
 import Grid from '../components/modules/pwa/Grid'
+
 import Hearts from '../media/images/hearts.jpg'
 
 export default () => (

@@ -38,7 +38,7 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-plugin-google-analytics', // Google Analytics
+      resolve: 'gatsby-plugin-google-analytics',
       options: {
         trackingId: Config.googleAnalyticsId
       }
@@ -52,16 +52,14 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-nprogress',
       options: {
-        // Setting a color is optional.
         color: Config.manifest.themeColor,
-        // Disable the loading spinner.
         showSpinner: false
       }
     },
     'gatsby-plugin-advanced-sitemap',
     'gatsby-plugin-offline',
     {
-      resolve: 'gatsby-plugin-manifest', // Progressive Web App
+      resolve: 'gatsby-plugin-manifest',
       options: {
         name: Config.siteTitle,
         short_name: Config.siteTitleShort,

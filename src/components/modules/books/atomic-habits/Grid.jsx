@@ -7,7 +7,7 @@ import Habits from '../../../../media/images/atomic-habits.jpg'
 
 import Info from './Info'
 
-export default () => (
+export default ({ data }) => (
   <Section style={{ gridGap: 'var(--xxl)' }} left xxl>
     <img
       style={{ width: '100%' }}

@@ -14,7 +14,5 @@ module.exports = {
     __dirname,
     '../src/media/images/logo.png'
   ),
-  googleAnalyticsId: 'UA-XXXXX',
-  facebook: 'Your optional Facebook App ID',
-  twitter: 'Your Twitter username'
+  googleAnalyticsId: 'UA-XXXXX'
 }

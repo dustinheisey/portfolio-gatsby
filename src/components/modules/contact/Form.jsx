@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import {
   React,
   styled,
@@ -33,7 +32,7 @@ export default () => (
         back to you ASAP.
       </p>
     </div>
-    <Form>
+    <Form name='Contact'>
       <StyledContainer style={{ width: '100%' }}>
         <Input type='text' name='Name' />
         <Input type='phone' name='Phone' />

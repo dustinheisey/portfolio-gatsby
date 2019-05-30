@@ -1,7 +1,5 @@
-import React from 'react'
-import styled from 'styled-components'
-// import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Link } from 'gatsby'
+import { React, styled } from '../../../../config/imports'
 
 const StyledLink = styled(Link)`
   text-decoration: none;

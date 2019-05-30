@@ -1,4 +1,5 @@
-import React from 'react'
+// External
+import React, { Component } from 'react'
 import styled from 'styled-components'
 import {
   Accordion,
@@ -7,50 +8,67 @@ import {
   AccordionItemButton,
   AccordionItemPanel
 } from 'react-accessible-accordion'
-
 import AccordionCSS from 'react-accessible-accordion/dist/fancy-example.css'
-import Section from '../src/components/elements/molecules/Section'
-import Link from '../src/components/elements/atoms/Link'
-import Placeholder from '../src/media/images/placeholder.jpg'
-import Grid from '../src/components/elements/atoms/Grid'
-import Blurb from '../src/components/elements/molecules/Blurb'
+import Helmet from 'react-helmet'
+
+// Global
+import GlobalStyle, { media } from './global'
+
+// Atoms
 import Btn from '../src/components/elements/atoms/Btn'
-import BtnList from '../src/components/elements/atoms/BtnList'
-import Form from '../src/components/elements/molecules/Forms'
 import Input from '../src/components/elements/atoms/Input'
-import Icon from '../src/media/svg/inline/example-icon.svg'
+import Link from '../src/components/elements/atoms/Link'
 
+// Molecules
+import Blurb from '../src/components/elements/molecules/Blurb'
+import Form from '../src/components/elements/molecules/Form'
+import Grid from '../src/components/elements/molecules/Grid'
+import Section from '../src/components/elements/molecules/Section'
+
+// Layout
 import Header from '../src/components/layout/header/Header'
-import Nav from '../src/components/layout/header/Nav'
+import NavDesktop from '../src/components/layout/header/NavDesktop'
+import NavMobile from '../src/components/layout/header/NavMobile'
 
-import Layout from '../src/components/layout/Layout'
-import Cover from '../src/components/layout/layouts/Cover'
+import Footer from '../src/components/layout/footer/Footer'
+import Copywrite from '../src/components/layout/footer/Copywrite'
+
 import Bare from '../src/components/layout/layouts/Bare'
+import Cover from '../src/components/layout/layouts/Cover'
+
+import Coffee from '../src/components/layout/Coffee'
 import SEO from '../src/components/layout/SEO'
+
+import Icon from '../src/media/svg/inline/example-icon.svg'
 
 export {
   React,
+  Component,
   styled,
-  Link,
-  Btn,
-  Placeholder,
-  Section,
-  Grid,
-  Blurb,
-  BtnList,
   Accordion,
   AccordionItem,
   AccordionItemHeading,
   AccordionItemButton,
   AccordionItemPanel,
   AccordionCSS,
-  Icon,
-  Form,
-  Nav,
-  Header,
+  Helmet,
+  GlobalStyle,
+  media,
+  Btn,
   Input,
-  Layout,
-  Cover,
+  Link,
+  Blurb,
+  Form,
+  Grid,
+  Section,
+  Header,
+  NavDesktop,
+  NavMobile,
+  Footer,
+  Copywrite,
   Bare,
-  SEO
+  Cover,
+  Coffee,
+  SEO,
+  Icon
 }

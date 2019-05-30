@@ -1,10 +1,12 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable class-methods-use-this */
-import React, { Component } from 'react'
 import { slide as Menu } from 'react-burger-menu'
-import styled from 'styled-components'
-import { media } from '../../../../config/global'
-import Link from '../../elements/atoms/Link'
+
+import {
+  React,
+  styled,
+  Component,
+  media,
+  Link
+} from '../../../../config/imports'
 
 const styles = {
   bmBurgerButton: {

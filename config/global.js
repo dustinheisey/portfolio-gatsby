@@ -24,17 +24,6 @@ export default createGlobalStyle`
     --text-light: #cdcdcd;
     --text-lighter: #F8FFFB;
 
-    /* Link Color */
-    --link: hsla(0,0%,0%,0.8);
-    --link-hover: hsla(0,0%,0%,1);
-
-    /* Tag Colors */
-    --tag1: red;
-    --tag2: orange;
-    --tag3: yellow;
-    --tag4: green;
-    --tag5: blue;
-
     /* Box Shadow */
     --shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     --shadow-hover: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -52,20 +41,6 @@ export default createGlobalStyle`
     scroll-behavior: smooth;
   }
 
-  .tooltip {
-    border-radius: 5px;
-    outline: none;
-    padding: var(--sm) var(--md);
-    margin: var(--sm);
-    transition: all 0.5s;
-
-    background: var(--primary);
-    color: var(--secondary-lighter);
-  }
-  * {
-    margin: 0;
-  }
-
   textarea {
     margin: 0;
     padding: 0;
@@ -75,8 +50,6 @@ export default createGlobalStyle`
     background: var(--secondary-lighter);
   }
 
-  svg {
-  }
 `
 
 export const media = styledBreakpoint({

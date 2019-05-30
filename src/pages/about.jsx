@@ -1,8 +1,9 @@
 import { React, Cover, SEO } from '../../config/imports'
 
-import Forest from '../media/images/forest.jpg'
 import Testimonials from '../components/modules/about/Testimonials'
 import Values from '../components/modules/about/Values'
+
+import Forest from '../media/images/forest.jpg'
 
 export default () => (
   <Cover

@@ -8,6 +8,7 @@ import {
 import Intro from '../components/modules/index/Intro'
 import Services from '../components/modules/index/Services'
 import Project from '../components/modules/index/Project'
+
 import Cafe from '../media/images/cafe.jpg'
 
 export default () => (

@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-wrap-multilines */
 import {
   React,
   Cover,
@@ -6,15 +5,6 @@ import {
   SEO
 } from '../../config/imports'
 
-// import Business from '../components/modules/process/1'
-// import User from '../components/modules/process/2'
-// import Structure from '../components/modules/process/3'
-// import Inspiration from '../components/modules/process/4'
-// import Wireframe from '../components/modules/process/5'
-// import Design from '../components/modules/process/6'
-// import Development from '../components/modules/process/7'
-// import PWA from '../components/modules/process/8'
-// import Optimize from '../components/modules/process/9'
 import Grid from '../components/modules/process/Grid'
 import Tables from '../media/images/tables.jpg'
 
@@ -46,15 +36,6 @@ export default () => (
       title='My Process | Dustin Heisey'
       description='Placeholder'
     />
-    {/* <Business />
-    <User />
-    <Structure />
-    <Inspiration />
-    <Wireframe />
-    <Design />
-    <Development />
-    <PWA />
-    <Optimize /> */}
     <Grid />
   </Cover>
 )

@@ -1,18 +1,18 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
-import styled from 'styled-components'
-
-// import Email from '../../media/images/backgrounds/green_cup.png'
-import Section from '../elements/molecules/Section'
+import {
+  React,
+  styled,
+  Section,
+  Btn
+} from '../../../config/imports'
 import Coffee from '../../media/images/coffee.jpg'
-import Btn from '../elements/atoms/Btn'
 
 const StyledCall = styled(Section)`
   background: linear-gradient(
       to right bottom,
       rgba(50, 50, 50, 0.3),
       rgba(100, 100, 100, 0.3)
-    ), url(${Coffee});
+    ),
+    url(${Coffee});
   background-size: cover;
   background-position: 50% 75%;
   background-attachment: fixed;
@@ -31,6 +31,12 @@ export default () => (
     <p style={{ color: 'var(--text-lighter)' }}>
       I&apos;d love to get to know you and your business
     </p>
-    <Btn light text content="Let's Connect" link='/contact' color="var(--text-secondary-lighter)" />
+    <Btn
+      light
+      text
+      content="Let's Connect"
+      link='/contact'
+      color='var(--text-secondary-lighter)'
+    />
   </StyledCall>
 )

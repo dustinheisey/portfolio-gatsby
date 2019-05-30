@@ -1,7 +1,5 @@
 import Typography from 'typography'
-// import sternGroveTheme from 'typography-theme-stern-grove'
 
-// export default new Typography(sternGroveTheme)
 export default new Typography({
   baseFontSize: '18px',
   baseLineHeight: 1.45,
@@ -13,14 +11,6 @@ export default new Typography({
     {
       name: 'Merriweather Sans',
       styles: ['300', '400', '700', '900']
-    },
-    {
-      name: 'Amatic SC',
-      styles: ['400']
-    },
-    {
-      name: 'Lato',
-      styles: ['400']
     },
     {
       name: 'Kalam',
@@ -73,28 +63,7 @@ export default new Typography({
     caption: {
       fontFamily: 'Kalam',
       fontSize: '150%',
-      color: '#728B1A'
+      color: 'var(--primary)'
     }
   })
 })
-
-/* 
-  Content
-    Books
-      Summary
-      Key Takeaways
-  Typography
-    Fonts
-    Scale
-    Font Weights
-    Line Height
-    Color
-  Color
-  Media
-    Images
-    Illustrations
-    Icons
-    Backgrounds
-    Videos
-  Animations
-*/

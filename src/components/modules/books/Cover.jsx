@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import {
   React,
   styled,
@@ -31,6 +30,6 @@ export default () => (
         can find valuable insights, or your next book here.
       </p>
     </StyledText>
-    <Books style={{maxWidth: '100%'}} />
+    <Books style={{ maxWidth: '100%' }} />
   </StyledSection>
 )

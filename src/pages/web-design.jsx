@@ -1,7 +1,7 @@
 import { React, Cover, SEO } from '../../config/imports'
 
-import Info from '../components/modules/web-design/Info'
-import Results from '../components/modules/web-design/Results'
+import Info from '../components/modules/design/Info'
+import Results from '../components/modules/design/Results'
 
 import Market from '../media/images/mountain.jpg'
 

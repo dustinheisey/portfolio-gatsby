@@ -3,7 +3,11 @@
     "browser": true,
     "es6": true
   },
-  "extends": ["airbnb", "prettier"],
+  "extends": [
+    "airbnb",
+    "prettier",
+    "plugin:jsx-a11y/recommended"
+  ],
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
@@ -15,9 +19,14 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["react"],
+  "plugins": ["react", "jsx-a11y", "eslint-plugin-import"],
   "rules": {
     "react/prop-types": 0,
-    "comma-dangle": 0
+    "import/no-cycle": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "no-nested-ternary": 0,
+    "class-methods-use-this": 0,
+    "no-unused-vars": 0,
+    "react/jsx-wrap-multilines": 0
   }
 }

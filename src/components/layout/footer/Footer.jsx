@@ -1,10 +1,11 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
-import styled from 'styled-components'
-import Copywrite from './Copywrite'
-import Input from '../../elements/atoms/Input'
-import Btn from '../../elements/atoms/Btn'
-import Link from '../../elements/atoms/Link'
+import {
+  React,
+  styled,
+  Copywrite,
+  Input,
+  Btn,
+  Link
+} from '../../../../config/imports'
 
 const StyledContainer = styled.div`
   display: flex;

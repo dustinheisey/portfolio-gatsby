@@ -1,11 +1,12 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
-import styled from 'styled-components'
-import GlobalStyle from '../../../../config/global'
-import Header from '../header/Header'
-import Coffee from '../Coffee'
-import Footer from '../footer/Footer'
-import Section from '../../elements/molecules/Section'
+import {
+  React,
+  styled,
+  GlobalStyle,
+  Header,
+  Coffee,
+  Footer,
+  Section
+} from '../../../../config/imports'
 
 const StyledContainer = styled.header`
   background: ${props => props.gradient},
