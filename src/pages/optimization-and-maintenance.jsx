@@ -20,7 +20,7 @@ rgba(100, 100, 100, 0.35)
   >
     <SEO
       title='Optimization & Maintenance | Dustin Heisey'
-      description='Placeholder'
+      description=''
     />
     <Optimize />
     <Maintenance />

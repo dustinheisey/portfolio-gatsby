@@ -1,6 +1,7 @@
 import {
   React,
   styled,
+  media,
   Section,
   Grid,
   Blurb
@@ -14,10 +15,16 @@ const StyledImg = styled.img`
   height: auto;
   border-radius: 50%;
 `
+
+const StyledBlurb = styled(Blurb)`
+  ${media.down('phone')`
+    margin-bottom: var(--xxl);
+  `}
+`
 export default () => (
   <Section>
     <Grid columns={2}>
-      <Blurb style={{ justifyContent: 'flexStart' }}>
+      <StyledBlurb style={{ justifyContent: 'flexStart' }}>
         <StyledImg src={Marsha} alt='Maarsha Mayo' />
         <blockquote style={{ padding: 'var(--md)' }}>
           You&apos;ve completely changed my business!
@@ -29,8 +36,8 @@ export default () => (
         <caption style={{ fontSize: '125%' }}>
           Owner, Aerials Gymnastics
         </caption>
-      </Blurb>
-      <Blurb style={{ justifyContent: 'flexStart' }}>
+      </StyledBlurb>
+      <StyledBlurb style={{ justifyContent: 'flexStart' }}>
         <StyledImg src={Hoover} alt='Jarod Hoover' />
         <blockquote style={{ padding: 'var(--md)' }}>
           I am beyond pleased with Dustin’s impeccable
@@ -43,7 +50,7 @@ export default () => (
         <caption style={{ fontSize: '125%' }}>
           Owner, Aerials Gymnastics
         </caption>
-      </Blurb>
+      </StyledBlurb>
     </Grid>
   </Section>
 )

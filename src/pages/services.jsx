@@ -23,7 +23,7 @@ export default () => (
   >
     <SEO
       title='Services | Dustin Heisey'
-      description='Placeholder'
+      description=''
     />
     <WebDesign />
     <PWA />

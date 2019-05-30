@@ -1,8 +1,8 @@
 import {
   React,
-  Grid,
-  Blurb,
-  Icon
+  // Grid,
+  // Blurb,
+  // Icon
 } from '../../../../../config/imports'
 
 export default () => (
@@ -16,13 +16,11 @@ export default () => (
         Noisy World.
       </h1>
       <p>
-        Separated they live in Bookmarks right at the coast
-        of the famous Semantics, large language ocean
-        Separated they live in Bookmarks right
+        The concept of minimalism is one I was first introduced to with a Netflix documentary by the same name, however Digital Minimalism and the insights it has brought to me have affected me far more than minimizing the physical objects in my life ever could have.
       </p>
     </div>
-    <h2>Key Takeaways</h2>
-    <Grid columns={2}>
+    {/* <h2>Key Takeaways</h2> */}
+    {/* <Grid columns={2}>
       <Blurb left>
         <Icon />
         <p>
@@ -51,6 +49,6 @@ export default () => (
           coast of the famous Semantics, large language
         </p>
       </Blurb>
-    </Grid>
+    </Grid> */}
   </div>
 )

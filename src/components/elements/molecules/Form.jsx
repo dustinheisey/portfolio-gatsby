@@ -7,33 +7,22 @@ const StyledForm = styled.form`
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-
-  & * {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin-bottom: var(--sm);
-
-    & input,
-    textarea {
-      border: none;
-      border-radius: 3px;
-      outline: none;
-      background: var(--secondary-light);
-      width: 100%;
-    }
-
-    & textarea {
-      margin: 0;
-      padding: 0;
-      margin-bottom: var(--sm);
-    }
-  }
 `
 
 export default ({ name, children }) => (
-  <StyledForm name={name} method='POST' data-netlify='true'>
+  <form
+    style={{
+      margin: '0',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'flexStart',
+      justifyContent: 'center'
+    }}
+    name={name}
+    method='POST'
+    data-netlify='true'
+    data-netlify-honeypot='bot-field'
+  >
     {children}
-  </StyledForm>
+  </form>
 )

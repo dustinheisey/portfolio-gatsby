@@ -64,6 +64,17 @@ export default new Typography({
       fontFamily: 'Kalam',
       fontSize: '150%',
       color: 'var(--primary)'
+    },
+    "@media only screen and (max-width:599px)": {
+      "h1": {
+        fontSize: '250%'
+      },
+      "h2": {
+        fontSize: '200%'
+      },
+      caption: {
+        fontSize: '100%'
+      }
     }
   })
 })

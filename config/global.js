@@ -14,7 +14,7 @@ export default createGlobalStyle`
     --secondary-darker: #54513E;
     --secondary-dark: #BEBBA8;
     --secondary: #E6E4DB;
-    --secondary-light: #F4F3EC;
+    --secondary-light: #FEFCF3;
     --secondary-lighter: #FFFEFA;
 
     /* Accent Colors */

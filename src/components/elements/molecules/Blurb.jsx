@@ -1,4 +1,4 @@
-import { styled } from '../../../../config/imports'
+import { styled, media } from '../../../../config/imports'
 
 export default styled.div`
   display: flex;

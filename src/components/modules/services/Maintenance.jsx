@@ -5,7 +5,7 @@ import {
   Btn
 } from '../../../../config/imports'
 
-import Maintenance from '../../../media/svg/inline/maintain.svg'
+import Maintenance from '../../../media/svg/inline/services-maintain.svg'
 
 const StyledCall = styled.div`
   padding: var(--lg);

@@ -13,7 +13,7 @@ export default ({ children }) => {
       <div style={{ padding: 'var(--md)' }}>
         <Header />
       </div>
-      <main>{children}</main>
+      <main style={{width:'100%'}}>{children}</main>
       <Coffee />
       <Footer />
     </>

@@ -1,4 +1,4 @@
-import { styled } from '../../../../config/imports'
+import { styled, media } from '../../../../config/imports'
 
 export default styled.section`
   display: grid;
@@ -21,4 +21,12 @@ export default styled.section`
       : props.xxl
       ? 'var(--xxl)'
       : 'var(--md)'};
+
+    ${media.down('phone')`
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: var(--xl);
+    `}
 `

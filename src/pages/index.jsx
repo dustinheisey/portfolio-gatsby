@@ -30,7 +30,7 @@ export default () => (
   >
     <SEO
       title='Dustin Heisey | Portfolio'
-      description='Placeholder'
+      description=''
     />
     <Intro />
     <Services />

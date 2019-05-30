@@ -32,11 +32,23 @@ export default () => (
         back to you ASAP.
       </p>
     </div>
+
     <Form name='Contact'>
       <StyledContainer style={{ width: '100%' }}>
-        <Input type='text' name='Name' />
-        <Input type='phone' name='Phone' />
-        <Input type='area' name='Message' />
+        <Input
+          type='text'
+          name='Name'
+          autoComplete='name'
+        />
+        <Input
+          type='phone'
+          name='Phone'
+          autoComplete='phone'
+        />
+        <Input
+          type='area'
+          name='Message'
+        />
       </StyledContainer>
       <Btn primary type='submit' content='Submit' />
     </Form>

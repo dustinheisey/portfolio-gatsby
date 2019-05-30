@@ -1,6 +1,7 @@
 import {
   React,
   styled,
+  media,
   GlobalStyle,
   Header,
   Coffee,
@@ -38,6 +39,9 @@ const StyledCall = styled.div`
   color: var(--text-lighter);
 `
 
+const Heading = styled.h1`
+color: var(--text-lighter);
+`
 export default ({
   light,
   gradient,
@@ -53,9 +57,9 @@ export default ({
       <StyledHeader light={light} />
       <StyledSection xxl>
         <StyledCall>
-          <h1 style={{ color: 'var(--text-lighter)' }}>
+          <Heading style={{ color: 'var(--text-lighter)'}}>
             {heading}
-          </h1>
+          </Heading>
           <p style={{ color: 'var(--text-lighter)' }}>
             {text}
           </p>
@@ -63,7 +67,7 @@ export default ({
         </StyledCall>
       </StyledSection>
     </StyledContainer>
-    <main>{children}</main>
+    <main style={{width: '100%'}}>{children}</main>
     <Coffee />
     <Footer />
   </>

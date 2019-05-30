@@ -5,7 +5,7 @@ import {
   Btn
 } from '../../../../config/imports'
 
-import PWA from '../../../media/svg/inline/mobile_phone.svg'
+import PWA from '../../../media/svg/inline/services-pwa.svg'
 
 const StyledCall = styled.div`
   padding: var(--lg);
@@ -36,6 +36,6 @@ export default () => (
         content='Read about progressive web apps'
       />
     </StyledCall>
-    <StyledImg style={{width: '100%'}} />
+    <StyledImg style={{ width: '100%' }} />
   </Section>
 )

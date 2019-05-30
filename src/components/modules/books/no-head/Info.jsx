@@ -1,8 +1,8 @@
 import {
   React,
-  Grid,
-  Blurb,
-  Icon
+  // Grid,
+  // Blurb,
+  // Icon
 } from '../../../../../config/imports'
 
 export default () => (
@@ -16,13 +16,11 @@ export default () => (
         Obvious.
       </h1>
       <p>
-        Separated they live in Bookmarks right at the coast
-        of the famous Semantics, large language ocean
-        Separated they live in Bookmarks right
+      D.E. Harding has a profound insight that on the surface seems completely absurd: He has no head, and neither do any of us. He explores why he thinks so and the implications it has.
       </p>
     </div>
-    <h2>Key Takeaways</h2>
-    <Grid columns={2}>
+    {/* <h2>Key Takeaways</h2> */}
+    {/* <Grid columns={2}>
       <Blurb left>
         <Icon />
         <p>
@@ -51,6 +49,6 @@ export default () => (
           coast of the famous Semantics, large language
         </p>
       </Blurb>
-    </Grid>
+    </Grid> */}
   </div>
 )

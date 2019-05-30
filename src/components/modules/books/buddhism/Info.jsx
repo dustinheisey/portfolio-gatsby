@@ -1,26 +1,24 @@
 import {
   React,
-  Grid,
-  Blurb,
-  Icon
+  // Grid,
+  // Blurb,
+  // Icon
 } from '../../../../../config/imports'
 
 export default () => (
   <div style={{ width: '100%' }}>
     <div style={{ marginBottom: 'var(--xl)' }}>
-      <p>Robert Wright</p>
+      <caption style={{ display: 'flex' }}>Robert Wright</caption>
       <h1>
         Why Buddhism is True: The Science and Philosophy of
         Meditation and Enlightenment.
       </h1>
       <p>
-        Separated they live in Bookmarks right at the coast
-        of the famous Semantics, large language ocean
-        Separated they live in Bookmarks right
+        My introduction to buddhist philosophy, Why Buddhism is True explains how buddhism is a logically valid ideology through use of Science and Philosophy.
       </p>
     </div>
-    <h2>Key Takeaways</h2>
-    <Grid columns={2}>
+    {/* <h2>Key Takeaways</h2> */}
+    {/* <Grid columns={2}>
       <Blurb left>
         <Icon />
         <p>
@@ -49,6 +47,6 @@ export default () => (
           coast of the famous Semantics, large language
         </p>
       </Blurb>
-    </Grid>
+    </Grid> */}
   </div>
 )

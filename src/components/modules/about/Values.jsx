@@ -1,5 +1,7 @@
 import {
   React,
+  styled,
+  media,
   Section,
   Grid,
   Btn,
@@ -10,10 +12,33 @@ import User from '../../../media/svg/inline/user.svg'
 import Improvement from '../../../media/svg/inline/improvement.svg'
 import Responsibility from '../../../media/svg/inline/world.svg'
 
+const StyledHeading = styled.h2`
+  ${media.down('phone')`
+  text-align: center;
+  `}
+`
+
+const StyledGrid = styled(Grid)`
+  ${media.down('phone')`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  `}
+`
+
+const StyledSection = styled(Section)`
+  ${media.down('phone')`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  `}
+`
 export default () => (
-  <Section xxl>
-    <h2>I Have Strong Values</h2>
-    <Grid columns={3}>
+  <StyledSection xxl>
+    <StyledHeading>I Have Strong Values</StyledHeading>
+    <StyledGrid columns={3}>
       <Blurb>
         <User style={{ width: '12vmin' }} />
         <h3>User Centered Design</h3>
@@ -49,7 +74,7 @@ export default () => (
           world.
         </p>
       </Blurb>
-    </Grid>
+    </StyledGrid>
     <Btn primary link='/process' content='See my process' />
-  </Section>
+  </StyledSection>
 )

@@ -1,4 +1,4 @@
-import { React, styled } from '../../../../config/imports'
+import { React, styled, media} from '../../../../config/imports'
 
 const StyledGrid = styled.section`
   display: grid;
@@ -7,6 +7,18 @@ const StyledGrid = styled.section`
     1fr
   );
   grid-gap: var(--md);
+
+  ${media.down('phone')`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--lg);
+
+    & * {
+      margin-bottom: var(--md);
+    }
+  `}
 `
 
 export default ({ columns, children }) => (

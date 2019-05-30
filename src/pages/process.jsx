@@ -34,7 +34,7 @@ export default () => (
   >
     <SEO
       title='My Process | Dustin Heisey'
-      description='Placeholder'
+      description=''
     />
     <Grid />
   </Cover>

@@ -4,7 +4,7 @@ import {
   Section
 } from '../../../../config/imports'
 
-import Maintain from '../../../media/svg/inline/maintenance.svg'
+import Maintain from '../../../media/svg/inline/optimize-maintain.svg'
 
 const StyledCall = styled.div`
   padding: var(--lg);

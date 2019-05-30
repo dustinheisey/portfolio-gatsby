@@ -1,6 +1,7 @@
 import {
   React,
   styled,
+  media,
   Section,
   Btn
 } from '../../../config/imports'
@@ -22,7 +23,23 @@ const StyledCall = styled(Section)`
   & * {
     margin: var(--xs) 0;
   }
+
+  ${media.down('phone')`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    & * {
+      margin: var(--md) 0;
+    }
+
+    & h2 {
+      margin: var(--sm) 0;
+    }
+  `}
 `
+
 export default () => (
   <StyledCall xxl>
     <h2 style={{ color: 'var(--text-lighter)' }}>
@@ -33,7 +50,6 @@ export default () => (
     </p>
     <Btn
       light
-      text
       content="Let's Connect"
       link='/contact'
       color='var(--text-secondary-lighter)'

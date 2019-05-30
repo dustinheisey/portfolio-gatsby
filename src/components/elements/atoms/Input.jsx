@@ -1,14 +1,6 @@
 import { React, styled } from '../../../../config/imports'
 
 const StyledLabel = styled.label``
-const StyledInput = styled.input`
-  outline: none;
-  padding: var(--sm);
-  border-radius: 5px;
-  border: none;
-  margin-right: var(--sm);
-`
-
 const StyledSubmit = styled.input`
   outline: none;
   padding: var(--sm) var(--md);
@@ -34,7 +26,7 @@ export default ({ name, type }) => {
     return (
       <StyledLabel htmlFor={name}>
         {name}
-        <StyledInput type='search' name={name} />
+        <input style={{border: '1px solid var(--secondary)', borderRadius: '5px'}} type='search' name={name} />
       </StyledLabel>
     )
   }
@@ -42,7 +34,7 @@ export default ({ name, type }) => {
     return (
       <StyledLabel htmlFor={name}>
         {name}
-        <StyledSubmit type='submit' name={name} />
+        <input style={{border: '1px solid var(--secondary)', borderRadius: '5px'}} type='submit' name={name} />
       </StyledLabel>
     )
   }
@@ -51,14 +43,14 @@ export default ({ name, type }) => {
     return (
       <StyledLabel htmlFor={name}>
         {name}
-        <StyledArea name={name} />
+        <textarea style={{border: '1px solid var(--secondary)', marginTop: 'var(--sm)', borderRadius: '5px'}} name={name} />
       </StyledLabel>
     )
   }
   return (
     <StyledLabel htmlFor={name}>
       {name}
-      <StyledInput type={type} name={name} />
+      <input style={{border: '1px solid var(--secondary)', marginTop: 'var(--sm)', borderRadius: '5px'}} type={type} name={name} />
     </StyledLabel>
   )
 }

@@ -1,5 +1,7 @@
 import {
   React,
+  media,
+  styled,
   Accordion,
   AccordionItem,
   AccordionItemHeading,
@@ -10,11 +12,28 @@ import {
   Link
 } from '../../../../config/imports'
 
-import Deal from '../../../media/svg/inline/deal.svg'
+import Deal from '../../../media/svg/inline/index-services.svg'
+
+const StyledSection = styled(Section)`
+  ${media.down('phone')`display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--lg);
+  `}
+`
+
+const StyledDeal = styled(Deal)`
+  ${media.down('phone')`
+    width: 100%;
+    height: auto;
+    padding-bottom: var(--xl);
+  `}
+`
 
 export default () => (
-  <Section xxl left>
-    <Deal style={{ maxWidth: '100%', margin: 'auto' }} />
+  <StyledSection xxl left>
+    <StyledDeal />
     <div style={{ padding: 'var(--md)' }}>
       <h2>Services That Deliver</h2>
       <p>
@@ -26,7 +45,6 @@ export default () => (
       </p>
       <Accordion
         allowZeroExpanded='true'
-        allowMultipleExpanded='true'
         style={{
           height: 'minContent',
           width: '100%'
@@ -49,7 +67,7 @@ export default () => (
               practices and following important web
               standards.
             </p>
-            <Link link='/web-design'>
+            <Link to='/web-design'>
               Read About Custom Web Design
             </Link>
           </AccordionItemPanel>
@@ -71,7 +89,7 @@ export default () => (
               Web App.
             </p>
 
-            <Link link='/progressive-web-apps'>
+            <Link to='/progressive-web-apps'>
               Read About Progressive Web Apps
             </Link>
           </AccordionItemPanel>
@@ -92,12 +110,12 @@ export default () => (
               usability and speed, keeping it online and bug
               free.
             </p>
-            <Link link='/optimization-and-maintenance'>
+            <Link to='/optimization-and-maintenance'>
               Read About Optimization and Maintenance
             </Link>
           </AccordionItemPanel>
         </AccordionItem>
       </Accordion>
     </div>
-  </Section>
+  </StyledSection>
 )

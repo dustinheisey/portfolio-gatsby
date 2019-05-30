@@ -1,18 +1,28 @@
 import {
   React,
   styled,
+  media,
   Copywrite,
   Input,
   Btn,
   Link
 } from '../../../../config/imports'
 
+const StyledFooter = styled.footer`
+${media.down('phone')``}
+`
 const StyledContainer = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   padding: var(--xl) var(--xxl);
-  background: var(--primary-darker);
+  background: var(--secondary-lighter);
+
+  ${media.down('phone')`
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  `}
 `
 const StyledInfo = styled.div`
   display: flex;
@@ -23,6 +33,8 @@ const StyledInfo = styled.div`
   & img {
     width: 15vmin;
   }
+
+  ${media.down('phone')`margin-bottom: var(--xxl)`}
 `
 const StyledInputList = styled.div`
   display: flex;
@@ -36,27 +48,29 @@ const StyledList = styled.ul`
   grid-gap: var(--sm) var(--lg);
   grid-template-columns: repeat(2, 1fr);
   margin: 0;
+
+  ${media.down('phone')`justify-items: start; text-align: start;`}
 `
 export default () => (
-  <footer>
+  <StyledFooter>
     <StyledContainer>
       <StyledInfo>
-        <h3 style={{ color: 'var(--text-lighter' }}>
+        <caption>I&apos;ll get in touch instead</caption>
+        <h3 style={{ color: 'var(--text-dark)', marginTop: 'var(--md)' }}>
           Not ready to send me a message?
         </h3>
-        <p>
+        <p style={{ color: 'var(--text-dark)' }}>
           No worries. Give me your email and I&apos;ll send
           you one.
         </p>
         <StyledInputList>
-          <Input type='email' />
+          <Input style={{border: '1px solid var(--secondary)'}} type='email' />
           <Btn primary link='/contact' content='Send' />
         </StyledInputList>
       </StyledInfo>
       <StyledList>
         <li>
           <Link
-            color='var(--text-lighter)'
             hover='var(--primary-light)'
             to='/'
           >
@@ -65,7 +79,6 @@ export default () => (
         </li>
         <li>
           <Link
-            color='var(--text-lighter)'
             hover='var(--primary-light)'
             to='/about'
           >
@@ -74,7 +87,6 @@ export default () => (
         </li>
         <li>
           <Link
-            color='var(--text-lighter)'
             hover='var(--primary-light)'
             to='/process'
           >
@@ -83,7 +95,6 @@ export default () => (
         </li>
         <li>
           <Link
-            color='var(--text-lighter)'
             hover='var(--primary-light)'
             to='/recommended-books'
           >
@@ -92,7 +103,6 @@ export default () => (
         </li>
         <li>
           <Link
-            color='var(--text-lighter)'
             hover='var(--primary-light)'
             to='/services'
           >
@@ -101,7 +111,6 @@ export default () => (
         </li>
         <li>
           <Link
-            color='var(--text-lighter)'
             hover='var(--primary-light)'
             to='/web-design'
           >
@@ -110,7 +119,6 @@ export default () => (
         </li>
         <li>
           <Link
-            color='var(--text-lighter)'
             hover='var(--primary-light)'
             to='/progressive-web-apps'
           >
@@ -119,7 +127,6 @@ export default () => (
         </li>
         <li>
           <Link
-            color='var(--text-lighter)'
             hover='var(--primary-light)'
             to='/optimization-and-maintenance'
           >
@@ -128,7 +135,6 @@ export default () => (
         </li>
         <li>
           <Link
-            color='var(--text-lighter)'
             hover='var(--primary-light)'
             to='/portfolio'
           >
@@ -137,7 +143,6 @@ export default () => (
         </li>
         <li>
           <Link
-            color='var(--text-lighter)'
             hover='var(--primary-light)'
             to='/contact'
           >
@@ -147,5 +152,5 @@ export default () => (
       </StyledList>
     </StyledContainer>
     <Copywrite />
-  </footer>
+  </StyledFooter>
 )

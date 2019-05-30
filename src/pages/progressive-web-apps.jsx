@@ -21,7 +21,7 @@ export default () => (
   >
     <SEO
       title='Progressive Web Apps | Dustin Heisey'
-      description='Placeholder'
+      description=''
     />
     <Grid />
   </Cover>

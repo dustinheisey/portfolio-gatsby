@@ -8,7 +8,7 @@ export default () => (
   <Bare>
     <SEO
       title='Portfolio | Dustin Heisey'
-      description='Placeholder'
+      description=''
     />
     <Cover />
     <Honey />

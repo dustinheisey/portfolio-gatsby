@@ -1,6 +1,7 @@
 import {
   React,
   styled,
+  media,
   Section,
   Btn
 } from '../../../../config/imports'
@@ -21,8 +22,15 @@ const StyledImg = styled.img`
   border-radius: 5px;
 `
 
+const StyledSection = styled(Section)`
+  ${media.down('phone')`display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  `}
+`
 export default () => (
-  <Section xl right>
+  <StyledSection xl right>
     <StyledCall>
       <caption>My most recent project</caption>
       <h2>Hoover Honey</h2>
@@ -38,5 +46,5 @@ export default () => (
       />
     </StyledCall>
     <StyledImg src={Honey} alt='Placeholder' />
-  </Section>
+  </StyledSection>
 )

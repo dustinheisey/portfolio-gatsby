@@ -6,7 +6,7 @@ export default () => (
   <Bare>
     <SEO
       title='The Uninhabitable Earth | Dustin Heisey'
-      description='Placeholder'
+      description=''
     />
     <Grid />
   </Bare>

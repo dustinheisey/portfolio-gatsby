@@ -1,8 +1,8 @@
 import {
   React,
-  Grid,
-  Blurb,
-  Icon
+  // Grid,
+  // Blurb,
+  // Icon
 } from '../../../../../config/imports'
 
 export default () => (
@@ -16,41 +16,38 @@ export default () => (
         Habits and Break Bad Ones.
       </h1>
       <p>
-        Separated they live in Bookmarks right at the coast
-        of the famous Semantics, large language ocean
-        Separated they live in Bookmarks right
+        I have always thought that habits were the key to massive improvements in my life, and Atomic Habits has given me a clear guide on exactly how to develop them.
       </p>
     </div>
-    <h2>Key Takeaways</h2>
-    <Grid columns={2}>
-      <Blurb left>
-        <Icon />
-        <p>
-          Separated they live in Bookmarks right at the
-          coast of the famous Semantics, large language
-        </p>
-      </Blurb>
-      <Blurb left>
-        <Icon />
-        <p>
-          Separated they live in Bookmarks right at the
-          coast of the famous Semantics, large language
-        </p>
-      </Blurb>
-      <Blurb left>
-        <Icon />
-        <p>
-          Separated they live in Bookmarks right at the
-          coast of the famous Semantics, large language
-        </p>
-      </Blurb>
-      <Blurb left>
-        <Icon />
-        <p>
-          Separated they live in Bookmarks right at the
-          coast of the famous Semantics, large language
-        </p>
-      </Blurb>
-    </Grid>
   </div>
 )
+    /* <Grid columns={2}>
+      <Blurb left>
+        <Icon />
+        <p>
+             {/* <h2>Key Takeaways</h2> Separated they live in Bookmarks right at the
+          coast of the famous Semantics, large language
+        </p>
+      </Blurb>
+      <Blurb left>
+        <Icon />
+        <p>
+          Separated they live in Bookmarks right at the
+          coast of the famous Semantics, large language
+        </p>
+      </Blurb>
+      <Blurb left>
+        <Icon />
+        <p>
+          Separated they live in Bookmarks right at the
+          coast of the famous Semantics, large language
+        </p>
+      </Blurb>
+      <Blurb left>
+        <Icon />
+        <p>
+          Separated they live in Bookmarks right at the
+          coast of the famous Semantics, large language
+        </p>
+      </Blurb>
+    </Grid> */

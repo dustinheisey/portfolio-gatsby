@@ -4,7 +4,7 @@ import {
   Section
 } from '../../../../config/imports'
 
-import Optimize from '../../../media/svg/inline/optimize-code.svg'
+import Optimize from '../../../media/svg/inline/optimize-optimize.svg'
 
 const StyledCall = styled.div`
   padding: var(--lg);

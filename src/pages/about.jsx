@@ -23,7 +23,7 @@ export default () => (
   >
     <SEO
       title='About Me | Dustin Heisey'
-      description='Placeholder'
+      description=''
     />
     <Values />
     <Testimonials />
