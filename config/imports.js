@@ -29,6 +29,7 @@ import Section from '../src/components/elements/molecules/Section'
 import Header from '../src/components/layout/header/Header'
 import NavDesktop from '../src/components/layout/header/NavDesktop'
 import NavMobile from '../src/components/layout/header/NavMobile'
+import NavMobileLight from '../src/components/layout/header/NavMobileLight'
 
 import Footer from '../src/components/layout/footer/Footer'
 import Copywrite from '../src/components/layout/footer/Copywrite'
@@ -64,6 +65,7 @@ export {
   Header,
   NavDesktop,
   NavMobile,
+  NavMobileLight,
   Footer,
   Copywrite,
   Bare,

@@ -8,7 +8,7 @@ import {
   Link
 } from '../../../../config/imports'
 
-const Styles = {
+const StylesLight = {
   bmBurgerButton: {
     position: 'absolute',
     width: '36px',
@@ -18,10 +18,10 @@ const Styles = {
   },
   bmBurgerBars: {
     height: '4px',
-    background: 'var(--primary)'
+    background: 'var(--secondary-light)'
   },
   bmBurgerBarsHover: {
-    background: 'var(--primary)'
+    background: 'var(--secondary-light)'
   },
   bmCrossButton: {
     height: '20px',
@@ -59,15 +59,15 @@ const Styles = {
   },
   bmOverlay: {
     background: 'rgba(0, 0, 0, 0.3)'
-  },
-  button: {
-    top: 'var(--md)',
-    right: 'var(--md)'
-  },
-  span: {
-    top: '-180%',
-    position: 'absolute'
   }
+  //   button: {
+  //     top: 'var(--md)',
+  //     right: 'var(--md)'
+  //   },
+  //   span: {
+  //     top: '-180%',
+  //     position: 'absolute'
+  //   }
 }
 
 const StyledNav = styled.nav`
@@ -82,7 +82,7 @@ const Container = styled.div`
   ${media.down('phone')`display: flex;`}
 `
 
-class NavMobile extends Component {
+class NavMobileLight extends Component {
   showSettings(event) {
     event.preventDefault()
   }
@@ -94,7 +94,7 @@ class NavMobile extends Component {
           width='100%'
           right
           disableAutoFocus
-          styles={Styles}
+          styles={StylesLight}
         >
           <StyledNav>
             <ul>
@@ -121,4 +121,4 @@ class NavMobile extends Component {
   }
 }
 
-export default NavMobile
+export default NavMobileLight

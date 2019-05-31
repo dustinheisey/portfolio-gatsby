@@ -5,6 +5,7 @@ import {
   React,
   styled,
   NavMobile,
+  NavMobileLight,
   NavDesktop,
   Btn,
   media
@@ -23,8 +24,7 @@ const StyledNav = styled.nav`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: var(--xs) var(--md)`
-  }
+  padding: var(--xs) var(--md)`}
   background: transparent;
 `
 const StyledLogoDesktop = styled.img`
@@ -65,12 +65,18 @@ export default ({ light }) => {
           <NavDesktop light />
           <StyledBtn content='Contact' link='/contact' />
         </StyledNav>
-        <StyledLogoMobile
-          style={{ marginLeft: 'var(--sm)', marginTop: 'var(--sm)', width: '5vmin' }}
-          src={LogoLight}
-          alt='Logo'
-        />
-        <NavMobile />
+        <a href='/' to='/' style={{ height: '80%' }}>
+          <StyledLogoMobile
+            style={{
+              marginLeft: 'var(--sm)',
+              marginTop: 'var(--sm)',
+              width: '5vmin'
+            }}
+            src={LogoLight}
+            alt='Logo'
+          />
+        </a>
+        <NavMobileLight />
       </StyledHeader>
     )
   }
@@ -80,18 +86,24 @@ export default ({ light }) => {
         <a href='/' to='/' style={{ height: '80%' }}>
           <StyledLogoDesktop
             style={{ height: '100%' }}
-            src={LogoLight}
+            src={Logo}
             alt='Logo'
           />
         </a>
         <NavDesktop />
         <StyledBtn content='Contact' link='/contact' />
       </StyledNav>
-      <StyledLogoMobile
-        style={{ marginLeft: 'var(--sm)', marginTop: 'var(--sm)', width: '5vmin' }}
-        src={LogoLight}
-        alt='Logo'
-      />
+      <a href='/' to='/' style={{ height: '80%' }}>
+        <StyledLogoMobile
+          style={{
+            marginLeft: 'var(--sm)',
+            marginTop: 'var(--sm)',
+            width: '5vmin'
+          }}
+          src={Logo}
+          alt='Logo'
+        />
+      </a>
       <NavMobile />
     </StyledHeader>
   )
