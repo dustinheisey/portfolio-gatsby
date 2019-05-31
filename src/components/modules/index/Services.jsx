@@ -33,7 +33,9 @@ const StyledDeal = styled(Deal)`
 
 export default () => (
   <StyledSection xxl left>
-    <StyledDeal />
+    <StyledDeal
+      style={{ maxWidth: '90%', margin: 'auto' }}
+    />
     <div style={{ padding: 'var(--md)' }}>
       <h2>Services That Deliver</h2>
       <p>
