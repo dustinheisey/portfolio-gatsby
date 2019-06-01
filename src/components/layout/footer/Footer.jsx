@@ -79,7 +79,7 @@ export default () => (
             style={{ border: '1px solid var(--secondary)' }}
             type='email'
           />
-          <Btn primary link='/contact' content='Send' />
+          <Btn primary type='Submit' content='Send' />
         </StyledInputList>
       </StyledInfo>
       <StyledList>

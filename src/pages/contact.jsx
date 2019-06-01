@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import {
   React,
   styled,
@@ -61,6 +62,7 @@ export default () => (
             }}
             name='contact'
             method='POST'
+            action='/about/'
             data-netlify='true'
             data-netlify-honeypot='bot-field'
           >
@@ -69,47 +71,50 @@ export default () => (
               name='form-name'
               value='contact'
             />
+            <p hidden>
+              <label>
+                Don’t fill this out:
+                <input name='bot-field' />
+              </label>
+            </p>
             <StyledContainer style={{ width: '100%' }}>
-              <label htmlFor='name'>
-                Name
-                <input
-                  style={{
-                    border: '1px solid var(--secondary)',
-                    marginTop: 'var(--xs)',
-                    marginBottom: 'var(--sm)',
-                    borderRadius: '5px'
-                  }}
-                  type='text'
-                  name='name'
-                  autoComplete='name'
-                />
-              </label>
-              <label htmlFor='phone'>
-                Phone
-                <input
-                  style={{
-                    border: '1px solid var(--secondary)',
-                    marginTop: 'var(--xs)',
-                    marginBottom: 'var(--sm)',
-                    borderRadius: '5px'
-                  }}
-                  type='tel'
-                  name='phone'
-                  autoComplete='tel'
-                />
-              </label>
-              <label htmlFor='message'>
-                Message
-                <textarea
-                  style={{
-                    border: '1px solid var(--secondary)',
-                    marginTop: 'var(--xs)',
-                    marginBottom: 'var(--sm)',
-                    borderRadius: '5px'
-                  }}
-                  name='message'
-                />
-              </label>
+              <label htmlFor='name'>Name</label>
+              <input
+                style={{
+                  border: '1px solid var(--secondary)',
+                  marginTop: 'var(--xs)',
+                  marginBottom: 'var(--sm)',
+                  borderRadius: '5px'
+                }}
+                type='text'
+                name='name'
+                autoComplete='name'
+                required
+              />
+              <label htmlFor='phone'>Phone</label>
+              <input
+                style={{
+                  border: '1px solid var(--secondary)',
+                  marginTop: 'var(--xs)',
+                  marginBottom: 'var(--sm)',
+                  borderRadius: '5px'
+                }}
+                type='tel'
+                name='phone'
+                autoComplete='tel'
+                required
+              />
+              <label htmlFor='message'>Message</label>
+              <textarea
+                style={{
+                  border: '1px solid var(--secondary)',
+                  marginTop: 'var(--xs)',
+                  marginBottom: 'var(--sm)',
+                  borderRadius: '5px'
+                }}
+                name='message'
+                required
+              />
             </StyledContainer>
             <Btn primary type='submit' content='Submit' />
           </form>
