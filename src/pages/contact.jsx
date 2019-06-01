@@ -61,9 +61,9 @@ export default () => (
             </p>
           </div>
           <StyledForm
-            name='contact'
+            name='Contact'
             method='POST'
-            action='/about/'
+            action='/success'
             data-netlify='true'
             data-netlify-recaptcha='true'
             data-netlify-honeypot='bot-field'
@@ -71,7 +71,7 @@ export default () => (
             <input
               type='hidden'
               name='form-name'
-              value='contact'
+              value='Contact'
             />
             <p hidden>
               <label>
@@ -118,7 +118,7 @@ export default () => (
                 required
               />
             </StyledContainer>
-            <Btn primary type='submit' content='Submit' />
+            <Btn form content='Submit' />
           </StyledForm>
         </div>
       </Grid>

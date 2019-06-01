@@ -58,6 +58,7 @@ const Btn = ({
   external,
   text,
   outline,
+  form,
   anchor
 }) => {
   if (text) {
@@ -77,6 +78,12 @@ const Btn = ({
           {content}
         </StyledOutline>
       </Link>
+    )
+  }
+
+  if (form) {
+    return (
+      <StyledPrimary type='submit'>{content}</StyledPrimary>
     )
   }
   return (
