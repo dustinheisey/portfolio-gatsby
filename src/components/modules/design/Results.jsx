@@ -1,5 +1,6 @@
 import {
   React,
+  styled,
   Section,
   Grid,
   Blurb
@@ -10,6 +11,10 @@ import Experience from '../../../media/svg/inline/experience.svg'
 import Responsive from '../../../media/svg/inline/responsive.svg'
 import Conversions from '../../../media/svg/inline/conversion.svg'
 
+const StyledIcon = styled.svg`
+  width: 30%;
+`
+
 export default () => (
   <Section xl>
     <h2 style={{ textAlign: 'center' }}>
@@ -17,7 +22,7 @@ export default () => (
     </h2>
     <Grid columns={4}>
       <Blurb>
-        <Experience style={{ alignSelf: 'center', width: '12vmin' }} />
+        <StyledIcon as={Experience} />
         <h3>Great User Experience</h3>
         <p>
           Your website can be a powerful sales tool, a
@@ -26,7 +31,7 @@ export default () => (
         </p>
       </Blurb>
       <Blurb>
-        <Responsive style={{ alignSelf: 'center',width: '12vmin' }} />
+        <StyledIcon as={Responsive} />
         <h3>Mobile First & Responsive</h3>
         <p>
           Most people access the web from multiple devices,
@@ -35,7 +40,7 @@ export default () => (
         </p>
       </Blurb>
       <Blurb>
-        <Fast style={{ alignSelf: 'center',width: '12vmin' }} />
+        <StyledIcon as={Fast} />
         <h3>Blazing Fast Speed</h3>
         <p>
           Having a great website means nothing when your
@@ -45,7 +50,7 @@ export default () => (
         </p>
       </Blurb>
       <Blurb>
-        <Conversions style={{ alignSelf: 'center',width: '12vmin' }} />
+        <StyledIcon as={Conversions} />
         <h3>Higher Conversions</h3>
         <p>
           Getting to know your business and taking care of

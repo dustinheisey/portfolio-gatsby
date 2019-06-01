@@ -29,6 +29,10 @@ const StyledGrid = styled(Grid)`
   padding: var(--xxl);
   width: 100%;
 `
+
+const StyledIcon = styled.svg`
+  width: 50%;
+`
 export default () => (
   <Section id='process'>
     <caption style={{ marginTop: 'var(--xxl)' }}>
@@ -51,16 +55,9 @@ export default () => (
       columns={3}
     >
       <StyledCall
-        style={{
-          paddingTop: 'var(--xxl)'
-        }}
+        style={{ paddingTop: 'var(--xxl)' }} 
       >
-        <Business
-          style={{
-            paddingRight: 'var(--xl)',
-            width: '25vmin'
-          }}
-        />
+        <StyledIcon as={Business} />
         <h2>
           1.
           <br />
@@ -77,12 +74,7 @@ export default () => (
           paddingTop: 'var(--xxl)'
         }}
       >
-        <Users
-          style={{
-            paddingRight: 'var(--xl)',
-            width: '25vmin'
-          }}
-        />
+        <StyledIcon as={Users} />
         <h2>
           2.
           <br />
@@ -100,12 +92,7 @@ export default () => (
           paddingTop: 'var(--xxl)'
         }}
       >
-        <Structure
-          style={{
-            paddingRight: 'var(--xl)',
-            width: '25vmin'
-          }}
-        />
+        <StyledIcon as={Structure} />
         <h2>
           3.
           <br />
@@ -120,12 +107,7 @@ export default () => (
         </p>
       </StyledCall>
       <StyledCall>
-        <Inspiration
-          style={{
-            paddingRight: 'var(--xl)',
-            width: '25vmin'
-          }}
-        />
+        <StyledIcon as={Inspiration} />
         <h2>
           4.
           <br />
@@ -141,12 +123,7 @@ export default () => (
         </p>
       </StyledCall>
       <StyledCall>
-        <Wireframe
-          style={{
-            paddingRight: 'var(--xl)',
-            width: '25vmin'
-          }}
-        />
+        <StyledIcon as={Wireframe} />
         <h2>
           5.
           <br />
@@ -159,12 +136,7 @@ export default () => (
         </p>
       </StyledCall>
       <StyledCall>
-        <Design
-          style={{
-            paddingRight: 'var(--xl)',
-            width: '25vmin'
-          }}
-        />
+        <StyledIcon as={Design} />
         <h2>
           6.
           <br />
@@ -184,12 +156,7 @@ export default () => (
           paddingBottom: 'var(--xxl)'
         }}
       >
-        <Develop
-          style={{
-            paddingRight: 'var(--xl)',
-            width: '25vmin'
-          }}
-        />
+        <StyledIcon as={Develop} />
         <h2>
           7.
           <br />
@@ -207,12 +174,7 @@ export default () => (
           paddingBottom: 'var(--xxl)'
         }}
       >
-        <PWA
-          style={{
-            paddingRight: 'var(--xl)',
-            width: '25vmin'
-          }}
-        />
+        <StyledIcon as={PWA} />
         <h2>
           8.
           <br />
@@ -231,12 +193,7 @@ export default () => (
           paddingBottom: 'var(--xxl)'
         }}
       >
-        <Optimize
-          style={{
-            paddingRight: 'var(--xl)',
-            width: '25vmin'
-          }}
-        />
+        <StyledIcon as={Optimize} />
         <h2>
           9.
           <br />

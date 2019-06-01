@@ -35,12 +35,16 @@ const StyledSection = styled(Section)`
     justify-content: center;
   `}
 `
+
+const StyledIcon = styled.svg`
+  width: 30%;
+`
 export default () => (
   <StyledSection xxl>
     <StyledHeading>I Have Strong Values</StyledHeading>
     <StyledGrid columns={3}>
       <Blurb>
-        <User style={{ width: '12vmin' }} />
+        <StyledIcon as={User} />
         <h3>User Centered Design</h3>
         <p>
           Your website has two important tasks, to help you
@@ -51,7 +55,7 @@ export default () => (
         </p>
       </Blurb>
       <Blurb>
-        <Improvement style={{ width: '12vmin' }} />
+        <StyledIcon as={Improvement} />
         <h3>Constant Improvement</h3>
         <p>
           The web is a vast ecosystem of constantly changing
@@ -63,7 +67,7 @@ export default () => (
         </p>
       </Blurb>
       <Blurb>
-        <Responsibility style={{ width: '12vmin' }} />
+        <StyledIcon as={Responsibility} />
         <h3>Social Responsibility</h3>
         <p>
           I believe in that most people are good, and I work

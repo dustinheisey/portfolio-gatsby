@@ -14,6 +14,11 @@ import Notification from '../../../media/svg/inline/notifications.svg'
 const StyledBlurb = styled(Blurb)`
   justify-content: flex-start;
 `
+
+const StyledIcon = styled.svg`
+  width: 30%;
+`
+
 export default () => (
   <Section xl>
     <h2 style={{ textAlign: 'center' }}>
@@ -21,7 +26,7 @@ export default () => (
     </h2>
     <Grid columns={4}>
       <StyledBlurb>
-        <Fire style={{ width: '12vmin' }} />
+        <StyledIcon as={Fire} />
         <h3>Blazing Fast Speed</h3>
         <p>
           Code splitting, inline critical css, pre-fetching
@@ -30,7 +35,7 @@ export default () => (
         </p>
       </StyledBlurb>
       <StyledBlurb>
-        <Mobile style={{ width: '12vmin' }} />
+        <StyledIcon as={Mobile} />
         <h3>Native Mobile UI</h3>
         <p>
           App like navigation, border-less display with no
@@ -40,7 +45,7 @@ export default () => (
         </p>
       </StyledBlurb>
       <StyledBlurb>
-        <Offline style={{ width: '12vmin' }} />
+        <StyledIcon as={Offline} />
         <h3>Offline Ready</h3>
         <p>
           After your app is installed on a users&apos;
@@ -50,7 +55,7 @@ export default () => (
         </p>
       </StyledBlurb>
       <StyledBlurb>
-        <Notification style={{ width: '12vmin' }} />
+        <StyledIcon as={Notification} />
         <h3>Send Notifications</h3>
         <p>
           Once installed, you can remind your users

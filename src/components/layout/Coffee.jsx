@@ -5,18 +5,8 @@ import {
   Section,
   Btn
 } from '../../../config/imports'
-import Coffee from '../../media/images/coffee.jpg'
 
 const StyledCall = styled(Section)`
-  background: linear-gradient(
-      to right bottom,
-      rgba(50, 50, 50, 0.3),
-      rgba(100, 100, 100, 0.3)
-    ),
-    url(${Coffee});
-  background-size: cover;
-  background-position: 50% 75%;
-  background-attachment: fixed;
   min-height: 75vh;
   color: #fff;
 

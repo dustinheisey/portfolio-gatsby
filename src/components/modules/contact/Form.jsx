@@ -1,8 +1,6 @@
 import {
   React,
   styled,
-  Form,
-  Input,
   Btn,
   Link
 } from '../../../../config/imports'
@@ -32,25 +30,62 @@ export default () => (
         back to you ASAP.
       </p>
     </div>
-
-    <Form name='Contact'>
+    <form
+      style={{
+        margin: '0',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'flexStart',
+        justifyContent: 'center'
+      }}
+      name='Contact'
+      method='POST'
+      data-netlify='true'
+      data-netlify-honeypot='bot-field'
+    >
       <StyledContainer style={{ width: '100%' }}>
-        <Input
-          type='text'
-          name='Name'
-          autoComplete='name'
-        />
-        <Input
-          type='phone'
-          name='Phone'
-          autoComplete='phone'
-        />
-        <Input
-          type='area'
-          name='Message'
-        />
+        <label htmlFor='name'>
+          Name
+          <input
+            style={{
+              border: '1px solid var(--secondary)',
+              marginTop: 'var(--xs)',
+              marginBottom: 'var(--sm)',
+              borderRadius: '5px'
+            }}
+            type='text'
+            name='name'
+            autoComplete='name'
+          />
+        </label>
+        <label htmlFor='phone'>
+          Phone
+          <input
+            style={{
+              border: '1px solid var(--secondary)',
+              marginTop: 'var(--xs)',
+              marginBottom: 'var(--sm)',
+              borderRadius: '5px'
+            }}
+            type='tel'
+            name='phone'
+            autoComplete='tel'
+          />
+        </label>
+        <label htmlFor='message'>
+          Message
+          <textarea
+            style={{
+              border: '1px solid var(--secondary)',
+              marginTop: 'var(--xs)',
+              marginBottom: 'var(--sm)',
+              borderRadius: '5px'
+            }}
+            name='message'
+          />
+        </label>
       </StyledContainer>
       <Btn primary type='submit' content='Submit' />
-    </Form>
+    </form>
   </div>
 )
