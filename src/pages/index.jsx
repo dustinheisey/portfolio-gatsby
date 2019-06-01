@@ -20,7 +20,7 @@ export default () => (
     heading={Cover.heading}
     text={Cover.text}
   >
-    <SEO title='Dustin Heisey | Portfolio' description='' />
+    <SEO title='Dustin Heisey | Portfolio' description='I make digital experiences that your users will love and give you an impressive online presence.' />
     <Intro />
     <Services />
     <Project />

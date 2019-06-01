@@ -31,7 +31,7 @@ export default () => (
   >
     <SEO
       title='My Process | Dustin Heisey'
-      description=''
+      description='A website is a work of art, but also a feat of careful design. I use a specific process to ensure that quality is met with no exceptions, and that it can be met in the most efficient and effective way possible.'
     />
     <Grid />
   </Cover>

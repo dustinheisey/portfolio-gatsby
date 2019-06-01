@@ -5,8 +5,14 @@ import {
   Section,
   Btn
 } from '../../../config/imports'
+import Coffee from '../../media/images/coffee.jpg'
 
 const StyledCall = styled(Section)`
+  padding: var(--md);
+  background: url(${Coffee});
+  background-size: cover;
+  background-position: 50% 80%;
+  background-attachment: fixed;
   min-height: 75vh;
   color: #fff;
 

@@ -17,7 +17,7 @@ export default () => (
   >
     <SEO
       title='Progressive Web Apps | Dustin Heisey'
-      description=''
+      description='The Progressive Web App specification is a standard for websites using key technologies to make a website function almost exactly like a native application on phones and tablets.'
     />
     <Grid />
   </Cover>

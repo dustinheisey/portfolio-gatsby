@@ -17,7 +17,7 @@ export default () => (
     text={Content.text}
     img={Content.index}
   >
-    <SEO title='Services | Dustin Heisey' description='' />
+    <SEO title='Services | Dustin Heisey' description='With strong values behind every decision I make, I can help your business succeed while also leaving your customers happy, and the world better off.' />
     <WebDesign />
     <PWA />
     <Maintenance />

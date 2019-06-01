@@ -19,7 +19,7 @@ export default () => (
   >
     <SEO
       title='Custom Web Design | Dustin Heisey'
-      description=''
+      description='I create a beautiful experience for your users, showcasing your business in the best light possible, without compromising on speed or reliability.'
     />
     <Info />
     <Results />

@@ -6,7 +6,7 @@ export default () => (
   <Bare>
     <SEO
       title='Why Buddhism is True | Dustin Heisey'
-      description=''
+      description='My introduction to buddhist philosophy, Why Buddhism is True explains how buddhism is a logically valid ideology through use of Science and Philosophy.'
     />
     <Grid />
   </Bare>

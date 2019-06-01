@@ -18,7 +18,7 @@ export default () => (
   >
     <SEO
       title='Optimization & Maintenance | Dustin Heisey'
-      description=''
+      description='The web is constantly changing, and your business is constantly growing. Let me keep your site up to date and working while you deal with the new business you&apos;re getting.'
     />
     <Optimize />
     <Maintenance />

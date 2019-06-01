@@ -6,7 +6,7 @@ export default () => (
   <Bare>
     <SEO
       title='On Having No Head | Dustin Heisey'
-      description=''
+      description='D.E. Harding has a profound insight that on the surface seems completely absurd: He has no head, and neither do any of us. He explores why he thinks so and the implications it has.'
     />
     <Grid />
   </Bare>

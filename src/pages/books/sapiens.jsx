@@ -6,7 +6,7 @@ export default () => (
   <Bare>
     <SEO
       title='Sapiens | Dustin Heisey'
-      description=''
+      description='If I had to pick one book that has had the most impact on my perception of myself and of everyone else, it would be Sapiens.'
     />
     <Grid />
   </Bare>
