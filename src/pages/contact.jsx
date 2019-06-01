@@ -61,9 +61,9 @@ export default () => (
             </p>
           </div>
           <StyledForm
-            name='Contact'
+            name='contact'
             method='POST'
-            action='/success'
+            action='/success/'
             data-netlify='true'
             data-netlify-recaptcha='true'
             data-netlify-honeypot='bot-field'
@@ -71,7 +71,7 @@ export default () => (
             <input
               type='hidden'
               name='form-name'
-              value='Contact'
+              value='contact'
             />
             <p hidden>
               <label>
