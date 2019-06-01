@@ -59,7 +59,7 @@ export default () => (
               alignItems: 'flexStart',
               justifyContent: 'center'
             }}
-            name='Contact'
+            name='contact'
             method='POST'
             data-netlify='true'
             data-netlify-honeypot='bot-field'
@@ -67,7 +67,7 @@ export default () => (
             <input
               type='hidden'
               name='form-name'
-              value='Contact'
+              value='contact'
             />
             <StyledContainer style={{ width: '100%' }}>
               <label htmlFor='name'>
