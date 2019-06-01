@@ -20,6 +20,14 @@ const StyledContainer = styled.div`
   }
 `
 
+const StyledForm = styled.form`
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+`
+
 export default () => (
   <Bare>
     <SEO
@@ -52,18 +60,12 @@ export default () => (
               get back to you ASAP.
             </p>
           </div>
-          <form
-            style={{
-              margin: '0',
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'flexStart',
-              justifyContent: 'center'
-            }}
+          <StyledForm
             name='contact'
             method='POST'
             action='/about/'
             data-netlify='true'
+            data-netlify-recaptcha='true'
             data-netlify-honeypot='bot-field'
           >
             <input
@@ -117,7 +119,7 @@ export default () => (
               />
             </StyledContainer>
             <Btn primary type='submit' content='Submit' />
-          </form>
+          </StyledForm>
         </div>
       </Grid>
     </Section>

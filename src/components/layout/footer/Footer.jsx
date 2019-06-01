@@ -1,3 +1,4 @@
+/* eslint-disable no-lone-blocks */
 import {
   React,
   styled,
@@ -74,13 +75,6 @@ export default () => (
           No worries. Give me your email and I&apos;ll send
           you one.
         </p>
-        <StyledInputList>
-          <Input
-            style={{ border: '1px solid var(--secondary)' }}
-            type='email'
-          />
-          <Btn primary type='Submit' content='Send' />
-        </StyledInputList>
       </StyledInfo>
       <StyledList>
         <li>
