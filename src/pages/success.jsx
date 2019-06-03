@@ -7,8 +7,6 @@ import {
 } from '../../config/imports'
 
 import Cover from '../components/modules/portfolio/Cover'
-import Aerials from '../components/modules/portfolio/Aerials'
-import Honey from '../components/modules/portfolio/Honey'
 
 export default () => (
   <Bare
@@ -16,7 +14,7 @@ export default () => (
     description='I got your submission and will respond ASAP! Thanks!'
   >
     <Section xxl>
-      <caption>Thanks!</caption>
+      <aside>Thanks!</aside>
       <h1>Success</h1>
       <p>I got your submission and will respond ASAP!</p>
       <Btn primary link='/' content='Back Home' />

@@ -1,5 +1,5 @@
 import {
-  React,
+  React
   // Grid,
   // Blurb,
   // Icon
@@ -8,15 +8,18 @@ import {
 export default () => (
   <div style={{ width: '100%' }}>
     <div style={{ marginBottom: 'var(--xl)' }}>
-      <caption style={{ display: 'flex' }}>
+      <aside style={{ display: 'flex' }}>
         D.E. Harding
-      </caption>
+      </aside>
       <h1>
         On Having no Head: Zen and the Rediscovery of the
         Obvious.
       </h1>
       <p>
-      D.E. Harding has a profound insight that on the surface seems completely absurd: He has no head, and neither do any of us. He explores why he thinks so and the implications it has.
+        D.E. Harding has a profound insight that on the
+        surface seems completely absurd: He has no head, and
+        neither do any of us. He explores why he thinks so
+        and the implications it has.
       </p>
     </div>
     {/* <h2>Key Takeaways</h2> */}

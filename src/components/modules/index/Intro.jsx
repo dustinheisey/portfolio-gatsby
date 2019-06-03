@@ -11,16 +11,16 @@ const StyledCall = styled.div`
   align-items: center;
   justify-content: center;
 `
-const StyledCaption = styled.caption`
+const StyledAside = styled.aside`
   margin: var(--sm) auto;
 `
 
 export default () => (
   <Section xl>
     <StyledCall>
-      <StyledCaption>
+      <StyledAside>
         Hey. welcome to my portfolio.
-      </StyledCaption>
+      </StyledAside>
       <h2 style={{ textAlign: 'center' }}>
         My Name is Dustin Heisey.
       </h2>

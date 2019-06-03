@@ -62,7 +62,7 @@ export default new Typography({
       fontFamily: 'Merriweather Sans',
       color: 'var(--text-dark)'
     },
-    caption: {
+    aside: {
       fontFamily: 'Kalam',
       fontSize: '150%',
       color: 'var(--primary)'
@@ -74,7 +74,7 @@ export default new Typography({
       h2: {
         fontSize: '200%'
       },
-      caption: {
+      aside: {
         fontFamily: 'Kalam',
         fontSize: '100%'
       }

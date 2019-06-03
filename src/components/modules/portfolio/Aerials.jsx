@@ -18,7 +18,7 @@ const StyledCall = styled.div`
 export default () => (
   <Section xl right>
     <StyledCall>
-      <caption>Wordpress</caption>
+      <aside>Wordpress</aside>
       <h2>Aerials Gymnastics</h2>
       <p>
         I helped develop the brand image as well as the

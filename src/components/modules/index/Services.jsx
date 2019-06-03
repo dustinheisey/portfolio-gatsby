@@ -69,7 +69,7 @@ export default () => (
               practices and following important web
               standards.
             </p>
-            <Link to='/web-design'>
+            <Link to='/web-design' primary>
               Read About Custom Web Design
             </Link>
           </AccordionItemPanel>
@@ -91,7 +91,7 @@ export default () => (
               Web App.
             </p>
 
-            <Link to='/progressive-web-apps'>
+            <Link to='/progressive-web-apps' primary>
               Read About Progressive Web Apps
             </Link>
           </AccordionItemPanel>
@@ -112,7 +112,10 @@ export default () => (
               usability and speed, keeping it online and bug
               free.
             </p>
-            <Link to='/optimization-and-maintenance'>
+            <Link
+              to='/optimization-and-maintenance'
+              primary
+            >
               Read About Optimization and Maintenance
             </Link>
           </AccordionItemPanel>

@@ -1,5 +1,5 @@
 import {
-  React,
+  React
   // Grid,
   // Blurb,
   // Icon
@@ -8,14 +8,19 @@ import {
 export default () => (
   <div style={{ width: '100%' }}>
     <div style={{ marginBottom: 'var(--xl)' }}>
-      <caption style={{ display: 'flex' }}>
+      <aside style={{ display: 'flex' }}>
         David Wallace-Wells
-      </caption>
+      </aside>
       <h1>
         The Uninhabitable Earth: A Story of the Future.
       </h1>
       <p>
-        By now the concept of climate change is one that most accept, however some still fail to aknowledge its reality, and most fail to grasp the extend to which it will affect our lives in the near future. The Uninhabitable Earth will help you understand and is essential to read if you are alive right now.
+        By now the concept of climate change is one that
+        most accept, however some still fail to aknowledge
+        its reality, and most fail to grasp the extend to
+        which it will affect our lives in the near future.
+        The Uninhabitable Earth will help you understand and
+        is essential to read if you are alive right now.
       </p>
     </div>
     {/* <h2>Key Takeaways</h2> */}

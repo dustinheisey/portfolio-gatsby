@@ -1,5 +1,5 @@
 import {
-  React,
+  React
   // Grid,
   // Blurb,
   // Icon
@@ -8,20 +8,21 @@ import {
 export default () => (
   <div style={{ width: '100%' }}>
     <div style={{ marginBottom: 'var(--xl)' }}>
-      <caption style={{ display: 'flex' }}>
-        James Clear
-      </caption>
+      <aside style={{ display: 'flex' }}>James Clear</aside>
       <h1>
         Atomic Habits: An Easy and Proven Way to Build Good
         Habits and Break Bad Ones.
       </h1>
       <p>
-        I have always thought that habits were the key to massive improvements in my life, and Atomic Habits has given me a clear guide on exactly how to develop them.
+        I have always thought that habits were the key to
+        massive improvements in my life, and Atomic Habits
+        has given me a clear guide on exactly how to develop
+        them.
       </p>
     </div>
   </div>
 )
-    /* <Grid columns={2}>
+/* <Grid columns={2}>
       <Blurb left>
         <Icon />
         <p>

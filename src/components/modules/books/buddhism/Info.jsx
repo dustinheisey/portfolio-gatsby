@@ -1,5 +1,5 @@
 import {
-  React,
+  React
   // Grid,
   // Blurb,
   // Icon
@@ -8,13 +8,17 @@ import {
 export default () => (
   <div style={{ width: '100%' }}>
     <div style={{ marginBottom: 'var(--xl)' }}>
-      <caption style={{ display: 'flex' }}>Robert Wright</caption>
+      <aside style={{ display: 'flex' }}>
+        Robert Wright
+      </aside>
       <h1>
         Why Buddhism is True: The Science and Philosophy of
         Meditation and Enlightenment.
       </h1>
       <p>
-        My introduction to buddhist philosophy, Why Buddhism is True explains how buddhism is a logically valid ideology through use of Science and Philosophy.
+        My introduction to buddhist philosophy, Why Buddhism
+        is True explains how buddhism is a logically valid
+        ideology through use of Science and Philosophy.
       </p>
     </div>
     {/* <h2>Key Takeaways</h2> */}

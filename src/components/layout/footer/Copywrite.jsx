@@ -23,7 +23,7 @@ export default () => (
       &copy; 2019&nbsp;
     </small>
     <small>
-      <Link hover='var(--primary-light)' to='/'>
+      <Link hover='var(--primary-light)' dark to='/'>
         Dustin Heisey.&nbsp;
       </Link>
     </small>
@@ -33,6 +33,7 @@ export default () => (
     <small>
       <Link
         external
+        dark
         hover='var(--primary-light)'
         to='https://www.kylekrempleyphoto.com'
       >

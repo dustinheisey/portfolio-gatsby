@@ -62,7 +62,7 @@ export default () => (
   <StyledFooter>
     <StyledContainer>
       <StyledInfo>
-        <caption>I&apos;ll get in touch instead</caption>
+        <aside>I&apos;ll get in touch instead</aside>
         <h3
           style={{
             color: 'var(--text-dark)',
@@ -78,67 +78,52 @@ export default () => (
       </StyledInfo>
       <StyledList>
         <li>
-          <Link hover='var(--primary-light)' to='/'>
+          <Link dark to='/'>
             Home
           </Link>
         </li>
         <li>
-          <Link hover='var(--primary-light)' to='/about'>
+          <Link dark to='/about'>
             About
           </Link>
         </li>
         <li>
-          <Link hover='var(--primary-light)' to='/process'>
+          <Link dark to='/process'>
             Process
           </Link>
         </li>
         <li>
-          <Link
-            hover='var(--primary-light)'
-            to='/recommended-books'
-          >
+          <Link dark to='/recommended-books'>
             Recommended Books
           </Link>
         </li>
         <li>
-          <Link hover='var(--primary-light)' to='/services'>
+          <Link dark to='/services'>
             Services
           </Link>
         </li>
         <li>
-          <Link
-            hover='var(--primary-light)'
-            to='/web-design'
-          >
+          <Link dark to='/web-design'>
             Custom Web Design
           </Link>
         </li>
         <li>
-          <Link
-            hover='var(--primary-light)'
-            to='/progressive-web-apps'
-          >
+          <Link dark to='/progressive-web-apps'>
             Progressive Web Apps
           </Link>
         </li>
         <li>
-          <Link
-            hover='var(--primary-light)'
-            to='/optimization-and-maintenance'
-          >
+          <Link dark to='/optimization-and-maintenance'>
             Optimization and Maintenance
           </Link>
         </li>
         <li>
-          <Link
-            hover='var(--primary-light)'
-            to='/portfolio'
-          >
+          <Link dark to='/portfolio'>
             Portfolio
           </Link>
         </li>
         <li>
-          <Link hover='var(--primary-light)' to='/contact'>
+          <Link dark to='/contact'>
             Contact
           </Link>
         </li>

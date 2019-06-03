@@ -1,5 +1,5 @@
 import {
-  React,
+  React
   // Grid,
   // Blurb,
   // Icon
@@ -8,15 +8,18 @@ import {
 export default () => (
   <div style={{ width: '100%' }}>
     <div style={{ marginBottom: 'var(--xl)' }}>
-      <caption style={{ display: 'flex' }}>
-        Cal Newport
-      </caption>
+      <aside style={{ display: 'flex' }}>Cal Newport</aside>
       <h1>
         Digital Minimalism: Choosing a Focussed Life in a
         Noisy World.
       </h1>
       <p>
-        The concept of minimalism is one I was first introduced to with a Netflix documentary by the same name, however Digital Minimalism and the insights it has brought to me have affected me far more than minimizing the physical objects in my life ever could have.
+        The concept of minimalism is one I was first
+        introduced to with a Netflix documentary by the same
+        name, however Digital Minimalism and the insights it
+        has brought to me have affected me far more than
+        minimizing the physical objects in my life ever
+        could have.
       </p>
     </div>
     {/* <h2>Key Takeaways</h2> */}

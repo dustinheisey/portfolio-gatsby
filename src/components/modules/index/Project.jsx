@@ -32,7 +32,7 @@ const StyledSection = styled(Section)`
 export default () => (
   <StyledSection xl right>
     <StyledCall>
-      <caption>My most recent project</caption>
+      <aside>My most recent project</aside>
       <h2>Hoover Honey</h2>
       <p>
         I designed a progressive web app for Hoover Honey,
