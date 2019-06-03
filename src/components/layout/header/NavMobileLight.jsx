@@ -99,19 +99,29 @@ class NavMobileLight extends Component {
           <StyledNav>
             <ul>
               <li>
-                <Link to='/'>Home</Link>
+                <Link to='/' dark>
+                  Home
+                </Link>
               </li>
               <li>
-                <Link to='/about'>About</Link>
+                <Link to='/about' dark>
+                  About
+                </Link>
               </li>
               <li>
-                <Link to='/services'>Services</Link>
+                <Link to='/services' dark>
+                  Services
+                </Link>
               </li>
               <li>
-                <Link to='/portfolio'>Portfolio</Link>
+                <Link to='/portfolio' dark>
+                  Portfolio
+                </Link>
               </li>
               <li>
-                <Link to='/contact'>Contact</Link>
+                <Link to='/contact' dark>
+                  Contact
+                </Link>
               </li>
             </ul>
           </StyledNav>
