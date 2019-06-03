@@ -10,7 +10,7 @@ export default new Typography({
     },
     {
       name: 'Merriweather Sans',
-      styles: ['300', '400', '700', '900']
+      styles: ['300', '700']
     },
     {
       name: 'Kalam',
@@ -25,7 +25,7 @@ export default new Typography({
     'sans-serif'
   ],
   bodyFontFamily: [
-    'Merriweather Sans[300]',
+    'Merriweather Sans',
     'Helvetica Neue',
     'Segoe UI',
     'Helvetica',
@@ -35,7 +35,8 @@ export default new Typography({
   scaleRatio: 4,
   overrideStyles: () => ({
     p: {
-      maxWidth: '70ch'
+      maxWidth: '70ch',
+      fontWeight: '300'
     },
     h1: {
       color: 'var(--text-darker)'
@@ -49,7 +50,8 @@ export default new Typography({
       color: 'var(--text-dark)'
     },
     h4: {
-      fontFamily: 'Merriweather Sans[700]',
+      fontFamily: 'Merriweather Sans',
+      fontWeight: '700',
       color: 'var(--text-dark)'
     },
     h5: {

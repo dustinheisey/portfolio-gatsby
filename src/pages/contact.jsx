@@ -29,12 +29,11 @@ const StyledForm = styled.form`
 `
 
 export default () => (
-  <Bare>
-    <SEO
-      title='Contact | Dustin Heisey'
-      description='Interested in learning more about how I can
-      help? Check out how now!'
-    />
+  <Bare
+    title='Contact | Dustin Heisey'
+    description='Interested in learning more about how I can
+  help? Check out how now!'
+  >
     <Section xl>
       <Grid columns={2}>
         <Contact style={{ margin: 'auto' }} />

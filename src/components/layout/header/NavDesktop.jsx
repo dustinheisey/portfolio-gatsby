@@ -103,7 +103,7 @@ const StyledDropdownLight = styled(DropdownLight)`
 
 const StyledTextLight = styled(StyledText)`
   color: #fff;
-  word-wrap: nowrap;
+  word-wrap: normal;
   transition: 0.5s all;
   padding: var(--sm);
   border-radius: 5px;

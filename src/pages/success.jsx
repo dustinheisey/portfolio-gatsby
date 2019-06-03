@@ -11,11 +11,10 @@ import Aerials from '../components/modules/portfolio/Aerials'
 import Honey from '../components/modules/portfolio/Honey'
 
 export default () => (
-  <Bare>
-    <SEO
-      title='Success | Dustin Heisey'
-      description='I got your submission and will respond ASAP! Thanks!'
-    />
+  <Bare
+    title='Success | Dustin Heisey'
+    description='I got your submission and will respond ASAP! Thanks!'
+  >
     <Section xxl>
       <caption>Thanks!</caption>
       <h1>Success</h1>

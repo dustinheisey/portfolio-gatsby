@@ -55,7 +55,7 @@ export default ({ light }) => {
     return (
       <StyledHeader>
         <StyledNav>
-          <a href='/' to='/' style={{ height: '80%' }}>
+          <a href='/' style={{ height: '80%' }}>
             <StyledLogoDesktop
               style={{ height: '100%' }}
               src={LogoLight}
@@ -65,7 +65,7 @@ export default ({ light }) => {
           <NavDesktop light />
           <StyledBtn content='Contact' link='/contact' />
         </StyledNav>
-        <a href='/' to='/' style={{ height: '80%' }}>
+        <a href='/' style={{ height: '80%' }}>
           <StyledLogoMobile
             style={{
               marginLeft: 'var(--sm)',
@@ -83,7 +83,7 @@ export default ({ light }) => {
   return (
     <StyledHeader>
       <StyledNav>
-        <a href='/' to='/' style={{ height: '80%' }}>
+        <a href='/' style={{ height: '80%' }}>
           <StyledLogoDesktop
             style={{ height: '100%' }}
             src={Logo}
@@ -93,7 +93,7 @@ export default ({ light }) => {
         <NavDesktop />
         <StyledBtn content='Contact' link='/contact' />
       </StyledNav>
-      <a href='/' to='/' style={{ height: '80%' }}>
+      <a href='/' style={{ height: '80%' }}>
         <StyledLogoMobile
           style={{
             marginLeft: 'var(--sm)',

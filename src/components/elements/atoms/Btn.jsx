@@ -19,9 +19,12 @@ const StyledButton = styled.button`
 
 const StyledPrimary = styled(StyledButton)`
   background: var(--primary);
-  color: var(--secondary-lighter);
   &:hover {
     background: var(--primary-dark);
+  }
+
+  & * {
+    color: var(--secondary-lighter);
   }
 `
 
@@ -63,21 +66,21 @@ const Btn = ({
 }) => {
   if (text) {
     return (
-      <Link to={link} external={external} anchor={anchor}>
-        <StyledText type='button' light={light}>
+      <StyledText type='button' light={light}>
+        <Link to={link} external={external} anchor={anchor}>
           {content}
-        </StyledText>
-      </Link>
+        </Link>
+      </StyledText>
     )
   }
 
   if (outline) {
     return (
-      <Link to={link} external={external} anchor={anchor}>
-        <StyledOutline type='button'>
+      <StyledOutline type='button'>
+        <Link to={link} external={external} anchor={anchor}>
           {content}
-        </StyledOutline>
-      </Link>
+        </Link>
+      </StyledOutline>
     )
   }
 
@@ -87,9 +90,16 @@ const Btn = ({
     )
   }
   return (
-    <Link to={link} external={external} anchor={anchor}>
-      <StyledPrimary type='button'>{content}</StyledPrimary>
-    </Link>
+    <StyledPrimary type='button'>
+      <Link
+        color='var(--secondary-light)'
+        to={link}
+        external={external}
+        anchor={anchor}
+      >
+        {content}
+      </Link>
+    </StyledPrimary>
   )
 }
 

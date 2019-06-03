@@ -26,11 +26,9 @@ export default () => (
     heading={Content.heading}
     text={Content.text}
     btn={Content.btn}
+    title='Dustin Heisey | Portfolio'
+    description='I make digital experiences that your users will love and give you an impressive online presence.'
   >
-    <SEO
-      title='Dustin Heisey | Portfolio'
-      description='I make digital experiences that your users will love and give you an impressive online presence.'
-    />
     <Intro />
     <Services />
     <Project />

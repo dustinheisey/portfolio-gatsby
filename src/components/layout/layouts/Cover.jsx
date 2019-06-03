@@ -7,7 +7,8 @@ import {
   Header,
   Coffee,
   Footer,
-  Section
+  Section,
+  SEO
 } from '../../../../config/imports'
 import Index from '../../../media/images/cafe.jpg'
 import About from '../../../media/images/forest.jpg'
@@ -65,7 +66,9 @@ const Test = ({
   children,
   text,
   img,
-  btn
+  btn,
+  title,
+  description
 }) => (
   <StaticQuery
     query={graphql`
@@ -147,6 +150,7 @@ const Test = ({
       return (
         <>
           <GlobalStyle />
+          <SEO title={title} description={description} />
           {/* <BackgroundImage
             Tag='section'
             className={className}

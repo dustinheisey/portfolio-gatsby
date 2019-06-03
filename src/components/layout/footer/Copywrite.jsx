@@ -5,7 +5,7 @@ import {
   Link
 } from '../../../../config/imports'
 
-const StyledContainer = styled.section`
+const StyledContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -19,19 +19,18 @@ const StyledContainer = styled.section`
 
 export default () => (
   <StyledContainer>
+    <small style={{ display: 'inline' }}>
+      &copy; 2019&nbsp;
+    </small>
     <small>
-      <p style={{ display: 'inline' }}>
-        &copy; 2019&nbsp;
-      </p>
-      <Link
-        hover='var(--primary-light)'
-        to='/'
-      >
+      <Link hover='var(--primary-light)' to='/'>
         Dustin Heisey.&nbsp;
       </Link>
-      <p style={{ display: 'inline' }}>
-        Images by&nbsp;
-      </p>
+    </small>
+    <small style={{ display: 'inline' }}>
+      Images by&nbsp;
+    </small>
+    <small>
       <Link
         external
         hover='var(--primary-light)'

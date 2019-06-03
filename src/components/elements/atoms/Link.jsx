@@ -5,7 +5,7 @@ const StyledLink = styled(Link)`
   text-decoration: none;
   color: ${props => props.color || 'var(--primary)'};
   display: inline-block;
-  word-wrap: nowrap;
+  word-wrap: normal;
   transition: all 0.5s;
 
   &:hover {

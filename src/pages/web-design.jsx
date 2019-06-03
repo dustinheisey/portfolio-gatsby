@@ -16,11 +16,9 @@ export default () => (
     heading={Content.heading}
     text={Content.text}
     img={Content.index}
+    title='Custom Web Design | Dustin Heisey'
+    description='I create a beautiful experience for your users, showcasing your business in the best light possible, without compromising on speed or reliability.'
   >
-    <SEO
-      title='Custom Web Design | Dustin Heisey'
-      description='I create a beautiful experience for your users, showcasing your business in the best light possible, without compromising on speed or reliability.'
-    />
     <Info />
     <Results />
   </Cover>

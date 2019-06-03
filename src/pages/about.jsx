@@ -21,8 +21,9 @@ export default () => (
     img={Content.index}
     heading={Content.heading}
     text={Content.text}
+    title='About Me | Dustin Heisey'
+    description='My name is Dustin Heisey, and I am located in Portland, Oregon. I help businesses develop an online presence that resonates with people and helps you help them in the way only you know how to.'
   >
-    <SEO title='About Me | Dustin Heisey' description='My name is Dustin Heisey, and I am located in Portland, Oregon. I help businesses develop an online presence that resonates with people and helps you help them in the way only you know how to.' />
     <Values />
     <Testimonials />
   </Cover>
