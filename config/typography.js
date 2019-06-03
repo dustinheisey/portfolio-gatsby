@@ -65,14 +65,15 @@ export default new Typography({
       fontSize: '150%',
       color: 'var(--primary)'
     },
-    "@media only screen and (max-width:599px)": {
-      "h1": {
+    '@media only screen and (max-width:599px)': {
+      h1: {
         fontSize: '250%'
       },
-      "h2": {
+      h2: {
         fontSize: '200%'
       },
       caption: {
+        fontFamily: 'Kalam',
         fontSize: '100%'
       }
     }

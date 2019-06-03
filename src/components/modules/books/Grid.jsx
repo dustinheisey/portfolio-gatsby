@@ -10,7 +10,7 @@ import Minimalism from '../../../media/images/digital-minimalism.jpg'
 import Habits from '../../../media/images/atomic-habits.jpg'
 import Buddhism from '../../../media/images/buddhism.jpg'
 import Sapiens from '../../../media/images/sapiens.jpg'
-import Earth from '../../../media/images/uninhabitable-earth.jpeg'
+import Earth from '../../../media/images/uninhabitable-earth.jpg'
 
 const Container = styled.section`
   padding: var(--xl);

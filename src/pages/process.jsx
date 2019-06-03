@@ -13,7 +13,7 @@ const Content = {
     'A website is a work of art, but also a feat of careful design. I use a specific process to ensure that quality is met with no exceptions, and that it can be met in the most efficient and effective way possible.',
   btn: (
     <Btn
-      text
+      primary
       light
       content='See My Process'
       link='/process#process'
