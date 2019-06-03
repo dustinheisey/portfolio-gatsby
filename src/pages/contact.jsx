@@ -45,13 +45,14 @@ export default () => (
             <p>
               If your interested in learning more about how
               I can help, text or call me at&nbsp;
-              <Link page link='tel:+4697189783'>
+              <Link external dark to='tel:+4697189783'>
                 (469) 718 - 9783
               </Link>
               , send me an email at&nbsp;
               <Link
-                page
-                link='mailto:hello@dustinheisey.com'
+                external
+                dark
+                to='mailto:hello@dustinheisey.com'
               >
                 hello@dustinheisey.com
               </Link>

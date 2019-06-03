@@ -19,6 +19,7 @@ const StyledButton = styled.button`
 
 const StyledPrimary = styled(StyledButton)`
   background: var(--primary);
+  color: var(--secondary-light);
   &:hover {
     background: var(--primary-dark);
   }

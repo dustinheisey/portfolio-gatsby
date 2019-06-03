@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable no-lone-blocks */
 import {
   React,
@@ -75,6 +76,39 @@ export default () => (
           No worries. Give me your email and I&apos;ll send
           you one.
         </p>
+        <form
+          name='footer'
+          method='POST'
+          action='/success/'
+          data-netlify='true'
+          data-netlify-recaptcha='true'
+          data-netlify-honeypot='bot-field'
+        >
+          <input
+            type='hidden'
+            name='form-name'
+            value='contact'
+          />
+          <p hidden>
+            <label>
+              Don’t fill this out:
+              <input name='bot-field' />
+            </label>
+          </p>
+          <input
+            style={{
+              border: '1px solid var(--secondary)',
+              marginRight: 'var(--sm)',
+              padding: 'var(--xs)',
+              borderRadius: '5px'
+            }}
+            type='email'
+            name='email'
+            autoComplete='email'
+            required
+          />
+          <Btn form content='Submit' />
+        </form>
       </StyledInfo>
       <StyledList>
         <li>

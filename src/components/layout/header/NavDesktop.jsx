@@ -187,7 +187,7 @@ export default ({ light }) => {
     <MenuArea>
       <ul>
         <li>
-          <StyledLink to='/about'>
+          <StyledLink dark to='/about'>
             <StyledText>
               About
               <StyledDropdown />
@@ -195,17 +195,19 @@ export default ({ light }) => {
           </StyledLink>
           <DropdownAbout>
             <li>
-              <StyledLink to='/process'>Process</StyledLink>
+              <StyledLink dark to='/process'>
+                Process
+              </StyledLink>
             </li>
             <li>
-              <StyledLink to='/recommended-books'>
+              <StyledLink dark to='/recommended-books'>
                 Books List
               </StyledLink>
             </li>
           </DropdownAbout>
         </li>
         <li>
-          <StyledLink to='/services'>
+          <StyledLink dark to='/services'>
             <StyledText>
               Services
               <StyledDropdown />
@@ -213,24 +215,29 @@ export default ({ light }) => {
           </StyledLink>
           <DropdownServices>
             <li>
-              <StyledLink to='/web-design'>
+              <StyledLink dark to='/web-design'>
                 Web Design
               </StyledLink>
             </li>
             <li>
-              <StyledLink to='/progressive-web-apps'>
+              <StyledLink dark to='/progressive-web-apps'>
                 PWAs
               </StyledLink>
             </li>
             <li>
-              <StyledLink to='/optimization-and-maintenance'>
+              <StyledLink
+                dark
+                to='/optimization-and-maintenance'
+              >
                 Maintenance
               </StyledLink>
             </li>
           </DropdownServices>
         </li>
         <li>
-          <StyledLink to='/portfolio'>Portfolio</StyledLink>
+          <StyledLink dark to='/portfolio'>
+            Portfolio
+          </StyledLink>
         </li>
       </ul>
     </MenuArea>
