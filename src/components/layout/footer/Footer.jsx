@@ -79,7 +79,7 @@ export default () => (
         <form
           name='footer'
           method='POST'
-          action='https://formsubmit.io/send/dustin@dustinheisey.com'
+          action='https://formsubmit.io/send/	4a91f29e-eb3d-4507-8b0d-ca560785b30e'
         >
           <label
             htmlFor='email'
