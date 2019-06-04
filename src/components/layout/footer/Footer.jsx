@@ -77,14 +77,31 @@ export default () => (
           you one.
         </p>
         <form
-          name='footer'
+          name='Footer'
+          action='https://formsubmit.co/ebc0e00326ae2dcdd2ef97cf3367e046'
           method='POST'
-          action='/success/'
-          data-netlify='true'
-          data-netlify-recaptcha='true'
-          data-netlify-honeypot='bot-field'
+          // method='POST'
+          // action='/success/'
+          // data-netlify='true'
+          // data-netlify-recaptcha='true'
+          // data-netlify-honeypot='bot-field'
         >
           <input
+            type='hidden'
+            name='_next'
+            value='https://dustinheisey.com/success'
+          />
+          <input
+            type='text'
+            name='_honey'
+            style={{ display: 'none' }}
+          />
+          <input
+            type='hidden'
+            name='_captcha'
+            value='false'
+          />
+          {/* <input
             type='hidden'
             name='form-name'
             value='contact'
@@ -94,17 +111,21 @@ export default () => (
               Don’t fill this out:
               <input name='bot-field' />
             </label>
-          </p>
+          </p> */}
+          <label htmlFor='email' hidden>
+            Email
+          </label>
           <input
             style={{
               border: '1px solid var(--secondary)',
               marginRight: 'var(--sm)',
+              width: '50%',
               padding: 'var(--xs)',
               borderRadius: '5px'
             }}
             type='email'
-            name='email'
-            autoComplete='email'
+            name='Email Address'
+            autoComplete='on'
             required
           />
           <Btn form content='Submit' />

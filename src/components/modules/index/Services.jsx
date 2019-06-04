@@ -18,7 +18,7 @@ const StyledSection = styled(Section)`
   ${media.down('phone')`display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: var(--lg);
   `}
 `
@@ -33,9 +33,7 @@ const StyledDeal = styled(Deal)`
 
 export default () => (
   <StyledSection xxl left>
-    <StyledDeal
-      style={{ maxWidth: '90%', margin: 'auto' }}
-    />
+    <StyledDeal style={{ maxWidth: '90%' }} />
     <div style={{ padding: 'var(--md)' }}>
       <h2>Services That Deliver</h2>
       <p>
@@ -46,11 +44,10 @@ export default () => (
         succeed.
       </p>
       <Accordion
-        allowZeroExpanded='true'
         style={{
-          height: 'minContent',
           width: '100%'
         }}
+        allowZeroExpanded
       >
         <AccordionItem>
           <AccordionItemHeading>

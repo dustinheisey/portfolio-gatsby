@@ -61,14 +61,16 @@ export default () => (
             </p>
           </div>
           <StyledForm
-            name='contact'
+            name='Contact'
+            // method='POST'
+            // action='/success/'
+            // data-netlify='true'
+            // data-netlify-recaptcha='true'
+            // data-netlify-honeypot='bot-field'
+            action='https://formsubmit.co/ebc0e00326ae2dcdd2ef97cf3367e046'
             method='POST'
-            action='/success/'
-            data-netlify='true'
-            data-netlify-recaptcha='true'
-            data-netlify-honeypot='bot-field'
           >
-            <input
+            {/* <input
               type='hidden'
               name='form-name'
               value='contact'
@@ -78,7 +80,22 @@ export default () => (
                 Don’t fill this out:
                 <input name='bot-field' />
               </label>
-            </p>
+            </p> */}
+            <input
+              type='hidden'
+              name='_next'
+              value='https://dustinheisey.com/success'
+            />
+            <input
+              type='text'
+              name='_honey'
+              style={{ display: 'none' }}
+            />
+            <input
+              type='hidden'
+              name='_captcha'
+              value='false'
+            />
             <StyledContainer style={{ width: '100%' }}>
               <label htmlFor='name'>Name</label>
               <input
@@ -89,7 +106,7 @@ export default () => (
                   borderRadius: '5px'
                 }}
                 type='text'
-                name='name'
+                name='Name'
                 autoComplete='name'
                 required
               />
@@ -102,7 +119,7 @@ export default () => (
                   borderRadius: '5px'
                 }}
                 type='tel'
-                name='phone'
+                name='Tel'
                 autoComplete='tel'
                 required
               />
@@ -114,7 +131,7 @@ export default () => (
                   marginBottom: 'var(--sm)',
                   borderRadius: '5px'
                 }}
-                name='message'
+                name='Message'
                 required
               />
             </StyledContainer>
