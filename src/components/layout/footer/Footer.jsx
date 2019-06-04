@@ -79,22 +79,8 @@ export default () => (
         <form
           name='footer'
           method='POST'
-          action='/success/'
-          data-netlify='true'
-          data-netlify-recaptcha='true'
-          data-netlify-honeypot='bot-field'
+          action='https://formsubmit.io/send/dustin@dustinheisey.com'
         >
-          <input
-            type='hidden'
-            name='form-name'
-            value='footer'
-          />
-          <p hidden>
-            <label>
-              Don’t fill this out if you&apos;re human:
-              <input name='bot-field' />
-            </label>
-          </p>
           <label
             htmlFor='email'
             style={{
