@@ -1,10 +1,8 @@
-import {
-  React,
-  styled,
-  Link
-} from '../../../../config/imports'
+import { Link } from 'gatsby'
+import { React, styled } from '../../../../config/imports'
 
-const StyledButton = styled.button`
+const StyledButton = styled(Link)`
+  text-decoration: none;
   border-radius: 5px;
   border: none;
   outline: none;
@@ -67,39 +65,34 @@ const Btn = ({
 }) => {
   if (text) {
     return (
-      <StyledText type='button' light={light}>
-        <Link to={link} external={external} anchor={anchor}>
-          {content}
-        </Link>
+      <StyledText to={link} external={external}>
+        {content}
       </StyledText>
     )
   }
 
   if (outline) {
     return (
-      <StyledOutline type='button'>
-        <Link to={link} external={external} anchor={anchor}>
-          {content}
-        </Link>
+      <StyledOutline to={link} external={external}>
+        {content}
       </StyledOutline>
     )
   }
 
   if (form) {
     return (
-      <StyledPrimary type='submit'>{content}</StyledPrimary>
+      <StyledPrimary as='button' type='submit'>
+        {content}
+      </StyledPrimary>
     )
   }
   return (
-    <StyledPrimary type='button'>
-      <Link
-        color='var(--secondary-light)'
-        to={link}
-        external={external}
-        anchor={anchor}
-      >
-        {content}
-      </Link>
+    <StyledPrimary
+      color='var(--secondary-light)'
+      to={link}
+      external={external}
+    >
+      {content}
     </StyledPrimary>
   )
 }

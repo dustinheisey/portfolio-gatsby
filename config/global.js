@@ -3,10 +3,12 @@ import styledBreakpoint from '@humblebee/styled-components-breakpoint'
 
 export default createGlobalStyle`
   :root {
+
     /* Primary Colors */
-    --primary-darker: #394706;
-    --primary-dark: #54670D;
-    --primary: #728B1A;
+    --primary-darker: #344902;
+    --primary-dark: #456103;
+    /* --primary: #728B1A; */
+    --primary: #557606;
     --primary-light: #9AB43C;
     --primary-lighter: #CDE47A;
 
@@ -17,7 +19,7 @@ export default createGlobalStyle`
     --secondary-light: #FEFCF3;
     --secondary-lighter: #FFFEFA;
 
-    /* Accent Colors */
+    /* Text Colors */
     --text-darker: #011409;
     --text-dark: #2D3631;
     --text: #dedede;

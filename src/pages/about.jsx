@@ -1,4 +1,4 @@
-import { React, Cover, Btn } from '../../config/imports'
+import { React, Cover } from '../../config/imports'
 
 import Testimonials from '../components/modules/about/Testimonials'
 import Values from '../components/modules/about/Values'

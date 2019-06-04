@@ -3,6 +3,7 @@ import { React, styled } from '../../../../config/imports'
 
 const StyledLink = styled(Link)`
   text-decoration: none;
+  position: relative;
   color: ${props =>
     props.dark
       ? 'var(--primary)'
@@ -17,15 +18,33 @@ const StyledLink = styled(Link)`
         ? 'var(--primary-dark)'
         : 'var(--secondary-light)'};
   }
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    width: 0%;
+    height: 100%;
+
+    border-bottom: 2px solid
+      ${props =>
+        props.dark
+          ? 'var(--primary-dark)'
+          : 'var(--secondary-light)'};
+
+    transition: width 0.3s ease;
+  }
+
+  &:hover:after {
+    left: 0;
+    width: 100%;
+    transition: width 0.3s ease;
+  }
 `
 
-export default ({
-  to,
-  dark,
-  external,
-  // anchor,
-  children
-}) => {
+export default ({ to, dark, external, children }) => {
   if (external) {
     if (dark) {
       return (
@@ -33,7 +52,6 @@ export default ({
           as='a'
           dark
           href={to}
-          target='_blank'
           rel='noreferrer noopener'
         >
           {children}
@@ -44,7 +62,6 @@ export default ({
       <StyledLink
         as='a'
         href={to}
-        target='_blank'
         rel='noreferrer noopener'
       >
         {children}

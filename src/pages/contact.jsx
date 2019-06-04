@@ -37,6 +37,7 @@ export default () => (
   <Bare
     title={Content.title}
     description={Content.description}
+    contact
   >
     <Section xl>
       <Grid columns={2}>
@@ -66,40 +67,10 @@ export default () => (
           </div>
           <StyledForm
             name='Contact'
-            // method='POST'
-            // action='/success/'
-            // data-netlify='true'
-            // data-netlify-recaptcha='true'
-            // data-netlify-honeypot='bot-field'
-            action='https://formsubmit.co/ebc0e00326ae2dcdd2ef97cf3367e046'
-            method='POST'
+            action='https://www.elformo.com/forms/91027ab5-f1b5-4288-9c2d-dfa166ffff7d'
+            method='post'
+            accept-charset='UTF-8'
           >
-            {/* <input
-              type='hidden'
-              name='form-name'
-              value='contact'
-            />
-            <p hidden>
-              <label>
-                Don’t fill this out:
-                <input name='bot-field' />
-              </label>
-            </p> */}
-            <input
-              type='hidden'
-              name='_next'
-              value='https://dustinheisey.com/success'
-            />
-            <input
-              type='text'
-              name='_honey'
-              style={{ display: 'none' }}
-            />
-            <input
-              type='hidden'
-              name='_captcha'
-              value='false'
-            />
             <StyledContainer style={{ width: '100%' }}>
               <label htmlFor='Name'>Name</label>
               <input

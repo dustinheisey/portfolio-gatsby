@@ -7,7 +7,12 @@ import {
   SEO
 } from '../../../../config/imports'
 
-export default ({ title, description, children }) => {
+export default ({
+  title,
+  description,
+  contact,
+  children
+}) => {
   return (
     <>
       <GlobalStyle />
@@ -16,7 +21,7 @@ export default ({ title, description, children }) => {
         <Header />
       </div>
       <main style={{ width: '100%' }}>{children}</main>
-      <Coffee />
+      {!contact && <Coffee />}
       <Footer />
     </>
   )

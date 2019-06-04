@@ -5,15 +5,15 @@ import Aerials from '../components/modules/portfolio/Aerials'
 import Honey from '../components/modules/portfolio/Honey'
 
 const Content = {
-  title: '',
-  description: ''
+  title: 'Portfolio | Dustin Heisey',
+  description:
+    'Welcome to my portfolio. Check out some of my recent work and maybe gather some inspiration for your next project.'
 }
+
 export default () => (
   <Bare
-    title='Portfolio | Dustin Heisey'
-    description='Welcome to my portfolio. Check out some of my recent
-  work and maybe gather some inspiration for your next
-  project.'
+    title={Content.title}
+    description={Content.description}
   >
     <Cover />
     <Honey />

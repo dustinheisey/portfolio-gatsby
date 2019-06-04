@@ -1,4 +1,3 @@
-import Img from 'gatsby-image'
 import { React, Cover, Btn } from '../../config/imports'
 
 import Intro from '../components/modules/index/Intro'

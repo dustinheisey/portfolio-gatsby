@@ -4,8 +4,9 @@ import Optimize from '../components/modules/optimize/Optimize'
 import Maintenance from '../components/modules/optimize/Maintenance'
 
 const Content = {
-  title: '',
-  description: '',
+  title: 'Optimization & Maintenance | Dustin Heisey',
+  description:
+    "The web is constantly changing, and your business is constantly growing. Let me keep your site up to date and working while you deal with the new business you're getting.",
   heading:
     'Let Me Take Care of Your Website While you Focus on Growing Your Business.',
   text:
@@ -17,8 +18,8 @@ export default () => (
     heading={Content.heading}
     text={Content.text}
     img={Content.index}
-    title='Optimization & Maintenance | Dustin Heisey'
-    description="The web is constantly changing, and your business is constantly growing. Let me keep your site up to date and working while you deal with the new business you're getting."
+    title={Content.title}
+    description={Content.description}
   >
     <Optimize />
     <Maintenance />

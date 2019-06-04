@@ -5,13 +5,12 @@ import {
   Btn
 } from '../../config/imports'
 
-import Cover from '../components/modules/portfolio/Cover'
-
 const Content = {
   title: 'Success | Dustin Heisey',
   description:
     'I got your submission and will respond ASAP! Thanks!'
 }
+
 export default () => (
   <Bare
     title={Content.title}
