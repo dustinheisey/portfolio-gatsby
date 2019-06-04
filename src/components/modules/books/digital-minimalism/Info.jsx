@@ -8,7 +8,7 @@ import {
 export default () => (
   <div style={{ width: '100%' }}>
     <div style={{ marginBottom: 'var(--xl)' }}>
-      <aside style={{ display: 'flex' }}>Cal Newport</aside>
+      <h4 style={{ display: 'flex' }}>Cal Newport</h4>
       <h1>
         Digital Minimalism: Choosing a Focussed Life in a
         Noisy World.

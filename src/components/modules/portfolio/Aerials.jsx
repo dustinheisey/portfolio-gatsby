@@ -20,7 +20,7 @@ const StyledCall = styled.div`
 export default ({ img }) => (
   <Section xl right>
     <StyledCall>
-      <aside>Wordpress</aside>
+      <h4>Wordpress</h4>
       <h2>Aerials Gymnastics</h2>
       <p>
         I helped develop the brand image as well as the

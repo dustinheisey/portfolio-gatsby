@@ -8,9 +8,9 @@ import {
 export default () => (
   <div style={{ width: '100%' }}>
     <div style={{ marginBottom: 'var(--xl)' }}>
-      <aside style={{ display: 'flex' }}>
+      <h4 style={{ display: 'flex' }}>
         Robert Wright
-      </aside>
+      </h4>
       <h1>
         Why Buddhism is True: The Science and Philosophy of
         Meditation and Enlightenment.

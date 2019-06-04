@@ -63,7 +63,7 @@ export default () => (
   <StyledFooter>
     <StyledContainer>
       <StyledInfo>
-        <aside>I&apos;ll get in touch instead</aside>
+        <h4>I&apos;ll get in touch instead</h4>
         <h3
           style={{
             color: 'var(--text-dark)',

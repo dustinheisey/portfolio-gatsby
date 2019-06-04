@@ -35,9 +35,9 @@ const StyledIcon = styled.svg`
 `
 export default () => (
   <Section id='process'>
-    <aside style={{ marginTop: 'var(--xxl)' }}>
+    <h4 style={{ marginTop: 'var(--xxl)' }}>
       How I Make Websites
-    </aside>
+    </h4>
     <h2
       style={{
         marginBottom: '0'

@@ -49,11 +49,6 @@ export default new Typography({
       fontFamily: 'Merriweather',
       color: 'var(--text-dark)'
     },
-    h4: {
-      fontFamily: 'Merriweather Sans',
-      fontWeight: '700',
-      color: 'var(--text-dark)'
-    },
     h5: {
       fontFamily: 'Merriweather Sans',
       color: 'var(--text-dark)'
@@ -62,9 +57,11 @@ export default new Typography({
       fontFamily: 'Merriweather Sans',
       color: 'var(--text-dark)'
     },
-    aside: {
+    h4: {
       fontFamily: 'Kalam',
       fontSize: '150%',
+      fontWeight: '400',
+      margin: '0',
       color: 'var(--primary)'
     },
     '@media only screen and (max-width:599px)': {
@@ -74,8 +71,10 @@ export default new Typography({
       h2: {
         fontSize: '200%'
       },
-      aside: {
+      h4: {
         fontFamily: 'Kalam',
+        margin: '0',
+        fontWeight: '400',
         fontSize: '100%'
       }
     }

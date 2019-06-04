@@ -8,9 +8,9 @@ import {
 export default () => (
   <div style={{ width: '100%' }}>
     <div style={{ marginBottom: 'var(--xl)' }}>
-      <aside style={{ display: 'flex' }}>
+      <h4 style={{ display: 'flex' }}>
         Yuval Noah Harari
-      </aside>
+      </h4>
       <h1>Sapiens: A Brief History of Human Kind.</h1>
       <p>
         If I had to pick one book that has had the most

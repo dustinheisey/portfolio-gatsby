@@ -8,9 +8,9 @@ import {
 export default () => (
   <div style={{ width: '100%' }}>
     <div style={{ marginBottom: 'var(--xl)' }}>
-      <aside style={{ display: 'flex' }}>
+      <h4 style={{ display: 'flex' }}>
         David Wallace-Wells
-      </aside>
+      </h4>
       <h1>
         The Uninhabitable Earth: A Story of the Future.
       </h1>

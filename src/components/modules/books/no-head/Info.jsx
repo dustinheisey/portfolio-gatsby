@@ -8,9 +8,9 @@ import {
 export default () => (
   <div style={{ width: '100%' }}>
     <div style={{ marginBottom: 'var(--xl)' }}>
-      <aside style={{ display: 'flex' }}>
+      <h4 style={{ display: 'flex' }}>
         D.E. Harding
-      </aside>
+      </h4>
       <h1>
         On Having no Head: Zen and the Rediscovery of the
         Obvious.

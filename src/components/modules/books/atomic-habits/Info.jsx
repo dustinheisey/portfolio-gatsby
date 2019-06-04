@@ -8,7 +8,7 @@ import {
 export default () => (
   <div style={{ width: '100%' }}>
     <div style={{ marginBottom: 'var(--xl)' }}>
-      <aside style={{ display: 'flex' }}>James Clear</aside>
+      <h4 style={{ display: 'flex' }}>James Clear</h4>
       <h1>
         Atomic Habits: An Easy and Proven Way to Build Good
         Habits and Break Bad Ones.

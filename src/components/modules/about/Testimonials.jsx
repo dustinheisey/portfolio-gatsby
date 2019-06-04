@@ -33,9 +33,9 @@ export default () => (
           their families. Thank you so much!
         </blockquote>
         <h3>Marsha Mayo</h3>
-        <aside style={{ fontSize: '125%' }}>
+        <h4 style={{ fontSize: '125%' }}>
           Owner, Aerials Gymnastics
-        </aside>
+        </h4>
       </StyledBlurb>
       <StyledBlurb style={{ justifyContent: 'flexStart' }}>
         <StyledImg src={Hoover} alt='Jarod Hoover' />
@@ -47,9 +47,9 @@ export default () => (
           recommend working with him.
         </blockquote>
         <h3>Hoover Honey</h3>
-        <aside style={{ fontSize: '125%' }}>
+        <h4 style={{ fontSize: '125%' }}>
           Owner, Aerials Gymnastics
-        </aside>
+        </h4>
       </StyledBlurb>
     </Grid>
   </Section>

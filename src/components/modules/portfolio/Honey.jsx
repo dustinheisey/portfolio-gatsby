@@ -23,7 +23,7 @@ export default () => (
       alt='Hoover Honey'
     />
     <StyledCall>
-      <aside>Eccomerce</aside>
+      <h4>Eccomerce</h4>
       <h2>Hoover Honey</h2>
       <p>
         I designed a progressive web app for Hoover Honey,
