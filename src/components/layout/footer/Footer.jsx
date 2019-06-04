@@ -77,54 +77,41 @@ export default () => (
           you one.
         </p>
         <form
-          name='Footer'
-          action='https://formsubmit.co/ebc0e00326ae2dcdd2ef97cf3367e046'
+          name='footer'
           method='POST'
-          // method='POST'
-          // action='/success/'
-          // data-netlify='true'
-          // data-netlify-recaptcha='true'
-          // data-netlify-honeypot='bot-field'
+          action='/success/'
+          data-netlify='true'
+          data-netlify-recaptcha='true'
+          data-netlify-honeypot='bot-field'
         >
-          <input
-            type='hidden'
-            name='_next'
-            value='https://dustinheisey.com/success'
-          />
-          <input
-            type='text'
-            name='_honey'
-            style={{ display: 'none' }}
-          />
-          <input
-            type='hidden'
-            name='_captcha'
-            value='false'
-          />
-          {/* <input
-            type='hidden'
-            name='form-name'
-            value='contact'
-          />
           <p hidden>
             <label>
-              Don’t fill this out:
+              Don’t fill this out if you&apos;re human:
               <input name='bot-field' />
             </label>
-          </p> */}
-          <label htmlFor='Email Address' hidden>
+          </p>
+          <label
+            htmlFor='email'
+            style={{
+              display: 'flex',
+              color: 'var(--primary)',
+              flexDirection: 'column',
+              marginBottom: 'var(--xs)'
+            }}
+          >
             Email
           </label>
           <input
             style={{
               border: '1px solid var(--secondary)',
               marginRight: 'var(--sm)',
-              width: '50%',
+              marginBottom: 'var(--md)',
               padding: 'var(--xs)',
               borderRadius: '5px'
             }}
             type='email'
-            name='Email Address'
+            id='email'
+            name='email'
             autoComplete='on'
             required
           />

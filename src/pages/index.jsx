@@ -1,15 +1,14 @@
-import {
-  React,
-  Cover,
-  Btn,
-  SEO
-} from '../../config/imports'
+import Img from 'gatsby-image'
+import { React, Cover, Btn } from '../../config/imports'
 
 import Intro from '../components/modules/index/Intro'
 import Services from '../components/modules/index/Services'
 import Project from '../components/modules/index/Project'
 
 const Content = {
+  title: 'Dustin Heisey | Portfolio',
+  description:
+    'I make digital experiences that your users will love and give you an impressive online presence.',
   heading:
     'Powerful Web Apps for Businesses and Their Customers.',
   text:
@@ -27,8 +26,8 @@ export default () => {
       heading={Content.heading}
       text={Content.text}
       btn={Content.btn}
-      title='Dustin Heisey | Portfolio'
-      description='I make digital experiences that your users will love and give you an impressive online presence.'
+      title={Content.title}
+      description={Content.description}
     >
       <Intro />
       <Services />

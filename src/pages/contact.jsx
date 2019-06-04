@@ -3,7 +3,6 @@ import {
   React,
   styled,
   Bare,
-  SEO,
   Section,
   Btn,
   Link,
@@ -28,11 +27,16 @@ const StyledForm = styled.form`
   justify-content: center;
 `
 
+const Content = {
+  title: 'Contact | Dustin Heisey',
+  description:
+    'Interested in learning more about how I can help? Check out how now!'
+}
+
 export default () => (
   <Bare
-    title='Contact | Dustin Heisey'
-    description='Interested in learning more about how I can
-  help? Check out how now!'
+    title={Content.title}
+    description={Content.description}
   >
     <Section xl>
       <Grid columns={2}>

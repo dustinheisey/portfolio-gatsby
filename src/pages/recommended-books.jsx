@@ -1,8 +1,12 @@
-import { React, Bare, SEO } from '../../config/imports'
+import { React, Bare } from '../../config/imports'
 
 import Cover from '../components/modules/books/Cover'
 import Grid from '../components/modules/books/Grid'
 
+const Content = {
+  title: '',
+  description: ''
+}
 export default () => (
   <Bare
     title='Recommended Books | Dustin Heisey'

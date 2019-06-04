@@ -1,12 +1,10 @@
-import {
-  React,
-  Link,
-  Bare,
-  SEO
-} from '../../config/imports'
+import { React, Link, Bare } from '../../config/imports'
 
+const Content = {
+  title: '404: Not found | Dustin Heisey'
+}
 export default () => (
-  <Bare title='404: Not found | Dustin Heisey'>
+  <Bare title={Content.title}>
     <div
       style={{
         display: 'flex',

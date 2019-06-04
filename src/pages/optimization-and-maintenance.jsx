@@ -1,9 +1,11 @@
-import { React, Cover, SEO } from '../../config/imports'
+import { React, Cover } from '../../config/imports'
 
 import Optimize from '../components/modules/optimize/Optimize'
 import Maintenance from '../components/modules/optimize/Maintenance'
 
 const Content = {
+  title: '',
+  description: '',
   heading:
     'Let Me Take Care of Your Website While you Focus on Growing Your Business.',
   text:

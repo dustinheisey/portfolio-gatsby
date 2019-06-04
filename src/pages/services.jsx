@@ -1,10 +1,12 @@
-import { React, Cover, SEO } from '../../config/imports'
+import { React, Cover } from '../../config/imports'
 
 import Maintenance from '../components/modules/services/Maintenance'
 import WebDesign from '../components/modules/services/WebDesign'
 import PWA from '../components/modules/services/PWA'
 
 const Content = {
+  title: '',
+  description: '',
   heading:
     'Services That Help Businesses at Every Stage of Their Project.',
   text:

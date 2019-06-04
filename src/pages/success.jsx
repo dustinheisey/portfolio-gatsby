@@ -2,16 +2,20 @@ import {
   React,
   Bare,
   Section,
-  Btn,
-  SEO
+  Btn
 } from '../../config/imports'
 
 import Cover from '../components/modules/portfolio/Cover'
 
+const Content = {
+  title: 'Success | Dustin Heisey',
+  description:
+    'I got your submission and will respond ASAP! Thanks!'
+}
 export default () => (
   <Bare
-    title='Success | Dustin Heisey'
-    description='I got your submission and will respond ASAP! Thanks!'
+    title={Content.title}
+    description={Content.description}
   >
     <Section xxl>
       <aside>Thanks!</aside>

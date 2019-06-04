@@ -1,4 +1,4 @@
-import { React, Bare, SEO } from '../../../config/imports'
+import { React, Bare } from '../../../config/imports'
 
 import Grid from '../../components/modules/books/sapiens/Grid'
 

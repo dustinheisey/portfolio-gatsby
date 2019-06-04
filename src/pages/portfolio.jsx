@@ -1,9 +1,13 @@
-import { React, Bare, SEO } from '../../config/imports'
+import { React, Bare } from '../../config/imports'
 
 import Cover from '../components/modules/portfolio/Cover'
 import Aerials from '../components/modules/portfolio/Aerials'
 import Honey from '../components/modules/portfolio/Honey'
 
+const Content = {
+  title: '',
+  description: ''
+}
 export default () => (
   <Bare
     title='Portfolio | Dustin Heisey'
