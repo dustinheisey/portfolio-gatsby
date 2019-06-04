@@ -9,7 +9,7 @@ import {
   AccordionItemPanel
 } from 'react-accessible-accordion'
 import AccordionCSS from 'react-accessible-accordion/dist/fancy-example.css'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 
 // Global
 import GlobalStyle, { media } from './global'

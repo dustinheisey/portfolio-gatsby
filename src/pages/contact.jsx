@@ -97,7 +97,7 @@ export default () => (
               value='false'
             />
             <StyledContainer style={{ width: '100%' }}>
-              <label htmlFor='name'>Name</label>
+              <label htmlFor='Name'>Name</label>
               <input
                 style={{
                   border: '1px solid var(--secondary)',
@@ -110,7 +110,7 @@ export default () => (
                 autoComplete='name'
                 required
               />
-              <label htmlFor='phone'>Phone</label>
+              <label htmlFor='Tel'>Phone</label>
               <input
                 style={{
                   border: '1px solid var(--secondary)',
@@ -123,7 +123,7 @@ export default () => (
                 autoComplete='tel'
                 required
               />
-              <label htmlFor='message'>Message</label>
+              <label htmlFor='Message'>Message</label>
               <textarea
                 style={{
                   border: '1px solid var(--secondary)',

@@ -112,7 +112,7 @@ export default () => (
               <input name='bot-field' />
             </label>
           </p> */}
-          <label htmlFor='email' hidden>
+          <label htmlFor='Email Address' hidden>
             Email
           </label>
           <input

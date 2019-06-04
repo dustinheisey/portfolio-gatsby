@@ -1,3 +1,5 @@
+/* eslint-disable react/destructuring-assignment */
+import Img from 'gatsby-image'
 import {
   React,
   styled,
@@ -15,7 +17,7 @@ const StyledCall = styled.div`
   justify-content: center;
 `
 
-export default () => (
+export default ({ img }) => (
   <Section xl right>
     <StyledCall>
       <aside>Wordpress</aside>
