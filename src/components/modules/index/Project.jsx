@@ -29,7 +29,7 @@ const StyledSection = styled(Section)`
     justify-content: center;
   `}
 `
-export default () => (
+export default ({ img }) => (
   <StyledSection xl right>
     <StyledCall>
       <aside>My most recent project</aside>
@@ -45,6 +45,6 @@ export default () => (
         content='See Portfolio'
       />
     </StyledCall>
-    <StyledImg src={Honey} alt='Placeholder' />
+    <img src={Honey} alt='Hoover Honey' />
   </StyledSection>
 )

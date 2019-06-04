@@ -20,17 +20,19 @@ const Content = {
   )
 }
 
-export default () => (
-  <Cover
-    img={Content.index}
-    heading={Content.heading}
-    text={Content.text}
-    btn={Content.btn}
-    title='Dustin Heisey | Portfolio'
-    description='I make digital experiences that your users will love and give you an impressive online presence.'
-  >
-    <Intro />
-    <Services />
-    <Project />
-  </Cover>
-)
+export default () => {
+  return (
+    <Cover
+      img={Content.index}
+      heading={Content.heading}
+      text={Content.text}
+      btn={Content.btn}
+      title='Dustin Heisey | Portfolio'
+      description='I make digital experiences that your users will love and give you an impressive online presence.'
+    >
+      <Intro />
+      <Services />
+      <Project />
+    </Cover>
+  )
+}
