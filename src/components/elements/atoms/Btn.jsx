@@ -87,11 +87,7 @@ const Btn = ({
     )
   }
   return (
-    <StyledPrimary
-      color='var(--secondary-light)'
-      to={link}
-      external={external}
-    >
+    <StyledPrimary to={link} external={external}>
       {content}
     </StyledPrimary>
   )

@@ -45,11 +45,6 @@ export default () => (
     <p style={{ color: 'var(--text-lighter)' }}>
       I&apos;d love to get to know you and your business
     </p>
-    <Btn
-      light
-      content="Let's Connect"
-      link='/contact'
-      color='var(--text-secondary-lighter)'
-    />
+    <Btn light content="Let's Connect" link='/contact' />
   </StyledCall>
 )
