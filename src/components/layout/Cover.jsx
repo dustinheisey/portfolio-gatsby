@@ -10,14 +10,6 @@ import {
   Section,
   SEO
 } from '../../../config/imports'
-import Index from '../../media/images/cafe.jpg'
-import About from '../../media/images/forest.jpg'
-import Process from '../../media/images/tables.jpg'
-import Services from '../../media/images/waterfall.jpg'
-import Design from '../../media/images/misty-forest.jpg'
-import PWA from '../../media/images/hearts.jpg'
-import Optimize from '../../media/images/mountain.jpg'
-import Contact from '../../media/images/coffee.jpg'
 
 const StyledHeader = styled(Header)`
   width: 100%;
@@ -50,7 +42,7 @@ const StyledContainer = styled.section`
   background-position: center;
   padding: var(--md);
 `
-const Test = ({
+const Cover = ({
   className,
   heading,
   children,
@@ -199,12 +191,10 @@ const Test = ({
   />
 )
 
-const StyledTest = styled(Test)`
+export default styled(Cover)`
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
   padding: var(--md);
 `
-
-export default StyledTest

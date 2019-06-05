@@ -18,9 +18,7 @@ const Styledh4 = styled.h4`
 export default () => (
   <Section xl>
     <StyledCall>
-      <Styledh4>
-        Hey. welcome to my portfolio.
-      </Styledh4>
+      <Styledh4>Hey. welcome to my portfolio.</Styledh4>
       <h2 style={{ textAlign: 'center' }}>
         My Name is Dustin Heisey.
       </h2>

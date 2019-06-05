@@ -1,36 +1,3 @@
-// import {
-//   React,
-//   GlobalStyle,
-//   Header,
-//   Coffee,
-//   Footer,
-//   SEO
-// } from '../../../config/imports'
-
-// export default ({
-//   title,
-//   description,
-//   contact,
-//   children
-// }) => {
-//   return (
-//     <>
-//       <GlobalStyle />
-//       <SEO
-//         title={title}
-//         description={description}
-//         img={Logo}
-//       />
-//       <div style={{ padding: 'var(--md)' }}>
-//         <Header />
-//       </div>
-//       <main style={{ width: '100%' }}>{children}</main>
-//       {!contact && <Coffee />}
-//       <Footer />
-//     </>
-//   )
-// }
-
 import { graphql, StaticQuery } from 'gatsby'
 import BackgroundImage from 'gatsby-background-image'
 import Logo from '../../media/images/logo.png'
@@ -41,44 +8,10 @@ import {
   Header,
   Coffee,
   Footer,
-  Section,
   SEO
 } from '../../../config/imports'
 
-import Contact from '../../media/images/coffee.jpg'
-
-const StyledHeader = styled(Header)`
-  width: 100%;
-`
-const StyledSection = styled(Section)`
-  background: transparent;
-  min-height: 100vh;
-  color: #fff;
-  padding: 0;
-  margin: 0;
-`
-
-const StyledCall = styled.div`
-  padding: var(--xxl);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  color: var(--text-lighter);
-`
-
-const Heading = styled.h1`
-  color: var(--text-lighter);
-`
-
-const StyledContainer = styled.section`
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  padding: var(--md);
-`
-const Test = ({
+const Default = ({
   className,
   children,
   title,
@@ -204,7 +137,7 @@ const Test = ({
   />
 )
 
-export default styled(Test)`
+export default styled(Default)`
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
