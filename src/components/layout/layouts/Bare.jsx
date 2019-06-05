@@ -7,6 +7,8 @@ import {
   SEO
 } from '../../../../config/imports'
 
+import Logo from '../../../media/images/logo.png'
+
 export default ({
   title,
   description,
@@ -16,7 +18,11 @@ export default ({
   return (
     <>
       <GlobalStyle />
-      <SEO title={title} description={description} />
+      <SEO
+        title={title}
+        description={description}
+        img={Logo}
+      />
       <div style={{ padding: 'var(--md)' }}>
         <Header />
       </div>

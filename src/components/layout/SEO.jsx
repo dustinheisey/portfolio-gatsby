@@ -2,7 +2,6 @@ import { React, Helmet } from '../../../config/imports'
 
 export default ({ title, description }) => (
   <Helmet
-    lang='en'
     title={title}
     meta={[
       {
@@ -38,5 +37,8 @@ export default ({ title, description }) => (
         content: description
       }
     ]}
-  />
+  >
+    <html lang='en' />
+    <title>{title}</title>
+  </Helmet>
 )
