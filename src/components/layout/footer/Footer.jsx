@@ -10,6 +10,9 @@ import {
   Link
 } from '../../../../config/imports'
 
+import Form from './Form'
+import List from './List'
+
 const StyledFooter = styled.footer`
   ${media.down('phone')``}
 `
@@ -62,58 +65,8 @@ const StyledList = styled.ul`
 export default () => (
   <StyledFooter>
     <StyledContainer>
-      <StyledList>
-        <li>
-          <Link dark to='/'>
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link dark to='/about'>
-            About
-          </Link>
-        </li>
-        <li>
-          <Link dark to='/process'>
-            Process
-          </Link>
-        </li>
-        <li>
-          <Link dark to='/recommended-books'>
-            Recommended Books
-          </Link>
-        </li>
-        <li>
-          <Link dark to='/services'>
-            Services
-          </Link>
-        </li>
-        <li>
-          <Link dark to='/web-design'>
-            Custom Web Design
-          </Link>
-        </li>
-        <li>
-          <Link dark to='/progressive-web-apps'>
-            Progressive Web Apps
-          </Link>
-        </li>
-        <li>
-          <Link dark to='/optimization-and-maintenance'>
-            Optimization and Maintenance
-          </Link>
-        </li>
-        <li>
-          <Link dark to='/portfolio'>
-            Portfolio
-          </Link>
-        </li>
-        <li>
-          <Link dark to='/contact'>
-            Contact
-          </Link>
-        </li>
-      </StyledList>
+      <Form />
+      <List />
     </StyledContainer>
     <Copywrite />
   </StyledFooter>

@@ -123,54 +123,6 @@ export default () => (
             </div>
             <button type='submit'>Send</button>
           </form>
-
-          {/* <StyledForm
-            name='Contact'
-            action='https://www.elformo.com/forms/91027ab5-f1b5-4288-9c2d-dfa166ffff7d'
-            method='post'
-            accept-charset='UTF-8'
-          >
-            <StyledContainer style={{ width: '100%' }}>
-              <label htmlFor='Name'>Name</label>
-              <input
-                style={{
-                  border: '1px solid var(--secondary)',
-                  marginTop: 'var(--xs)',
-                  marginBottom: 'var(--sm)',
-                  borderRadius: '5px'
-                }}
-                type='text'
-                name='Name'
-                autoComplete='name'
-                required
-              />
-              <label htmlFor='Tel'>Phone</label>
-              <input
-                style={{
-                  border: '1px solid var(--secondary)',
-                  marginTop: 'var(--xs)',
-                  marginBottom: 'var(--sm)',
-                  borderRadius: '5px'
-                }}
-                type='tel'
-                name='Tel'
-                autoComplete='tel'
-                required
-              />
-              <label htmlFor='Message'>Message</label>
-              <textarea
-                style={{
-                  border: '1px solid var(--secondary)',
-                  marginTop: 'var(--xs)',
-                  marginBottom: 'var(--sm)',
-                  borderRadius: '5px'
-                }}
-                name='Message'
-                required
-              />
-            </StyledContainer>
-            <Btn form content='Submit' />
-          </StyledForm> */}
         </div>
       </Grid>
     </Section>
