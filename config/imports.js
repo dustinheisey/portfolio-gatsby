@@ -34,11 +34,11 @@ import NavMobileLight from '../src/components/layout/header/NavMobileLight'
 import Footer from '../src/components/layout/footer/Footer'
 import Copywrite from '../src/components/layout/footer/Copywrite'
 
-import Bare from '../src/components/layout/layouts/Bare'
-import Cover from '../src/components/layout/layouts/Cover'
+import Bare from '../src/components/layout/Default'
+import Cover from '../src/components/layout/Cover'
 
-import Coffee from '../src/components/layout/Coffee'
-import SEO from '../src/components/layout/SEO'
+import Coffee from '../src/components/layout/footer/Call'
+import SEO from '../src/components/layout/header/SEO'
 
 import Icon from '../src/media/svg/inline/example-icon.svg'
 

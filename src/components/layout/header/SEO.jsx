@@ -1,4 +1,4 @@
-import { React, Helmet } from '../../../config/imports'
+import { React, Helmet } from '../../../../config/imports'
 
 export default ({ title, description }) => (
   <Helmet

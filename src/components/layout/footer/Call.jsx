@@ -4,12 +4,12 @@ import {
   media,
   Section,
   Btn
-} from '../../../config/imports'
-import Coffee from '../../media/images/coffee.jpg'
+} from '../../../../config/imports'
+import Coffee from '../../../media/images/coffee.jpg'
 
 const StyledCall = styled(Section)`
   padding: var(--md);
-  background: url(${Coffee});
+  /* background: url(${Coffee}); */
   background-size: cover;
   background-position: 50% 80%;
   background-attachment: fixed;
