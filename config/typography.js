@@ -59,7 +59,7 @@ export default new Typography({
     },
     h4: {
       fontFamily: 'Kalam',
-      fontSize: '150%',
+      fontSize: '200%',
       fontWeight: '400',
       margin: '0',
       color: 'var(--primary)'
@@ -75,7 +75,7 @@ export default new Typography({
         fontFamily: 'Kalam',
         margin: '0',
         fontWeight: '400',
-        fontSize: '100%'
+        fontSize: '120%'
       }
     }
   })
