@@ -151,6 +151,7 @@ const Cover = ({
                 rgba(50, 50, 50, 0.35),
                 rgba(100, 100, 100, 0.35)
               )'
+            style={{ padding: '0' }}
           >
             <StyledContainer img={img}>
               <StyledHeader light />
