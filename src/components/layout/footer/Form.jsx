@@ -69,6 +69,7 @@ export default () => (
       >
         <label
           htmlFor='email'
+          hidden
           style={{ color: 'var(--primary)' }}
         >
           Email
@@ -80,6 +81,7 @@ export default () => (
           }}
         >
           <input
+            title='Email Address'
             id='email'
             type='email'
             name='email'
