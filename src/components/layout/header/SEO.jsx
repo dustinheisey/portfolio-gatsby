@@ -39,6 +39,5 @@ export default ({ title, description }) => (
     ]}
   >
     <html lang='en' />
-    <title>{title}</title>
   </Helmet>
 )
