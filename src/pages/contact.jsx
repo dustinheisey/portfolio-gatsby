@@ -1,31 +1,6 @@
-/* eslint-disable jsx-a11y/label-has-associated-control */
-import {
-  React,
-  styled,
-  Bare,
-  Section,
-  Btn,
-  Link,
-  Grid
-} from '../../config/imports'
+import { React, Bare } from '../../config/imports'
 
-import Contact from '../components/modules/contact/Grid'
-
-const StyledContainer = styled.div`
-  width: 100%;
-
-  & * {
-    width: 100%;
-  }
-`
-
-const StyledForm = styled.form`
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-`
+import Grid from '../components/modules/contact/Grid'
 
 const Content = {
   title: 'Contact | Dustin Heisey',
@@ -39,6 +14,6 @@ export default () => (
     description={Content.description}
     contact
   >
-    <Contact />
+    <Grid />
   </Bare>
 )

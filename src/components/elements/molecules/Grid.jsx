@@ -1,4 +1,8 @@
-import { React, styled, media} from '../../../../config/imports'
+import {
+  React,
+  styled,
+  media
+} from '../../../../config/imports'
 
 const StyledGrid = styled.section`
   display: grid;

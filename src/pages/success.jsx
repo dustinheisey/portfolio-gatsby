@@ -5,6 +5,8 @@ import {
   Btn
 } from '../../config/imports'
 
+import Success from '../components/modules/success/success'
+
 const Content = {
   title: 'Success | Dustin Heisey',
   description:
@@ -16,11 +18,6 @@ export default () => (
     title={Content.title}
     description={Content.description}
   >
-    <Section xxl>
-      <h4>Thanks!</h4>
-      <h1>Success</h1>
-      <p>I got your submission and will respond ASAP!</p>
-      <Btn primary link='/' content='Back Home' />
-    </Section>
+    <Success />
   </Bare>
 )

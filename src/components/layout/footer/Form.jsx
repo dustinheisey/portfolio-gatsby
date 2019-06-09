@@ -7,29 +7,6 @@ import {
   Btn
 } from '../../../../config/imports'
 
-//   const StyledInfo = styled.div`
-//     display: flex;
-//     flex-direction: column;
-//     align-items: flex-start;
-//     color: #fff;
-//     justify-content: center;
-//     & img {
-//       width: 15vmin;
-//     }
-
-//     ${media.down('phone')`margin-bottom: var(--xxl)`}
-//   `
-//   const StyledInputList = styled.div`
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     margin: 0;
-
-//     & * {
-//       margin-right: var(--sm);
-//     }
-//   `
-
 const StyledContainer = styled.div``
 
 export default () => (

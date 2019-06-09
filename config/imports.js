@@ -16,12 +16,10 @@ import GlobalStyle, { media } from './global'
 
 // Atoms
 import Btn from '../src/components/elements/atoms/Btn'
-import Input from '../src/components/elements/atoms/Input'
 import Link from '../src/components/elements/atoms/Link'
 
 // Molecules
 import Blurb from '../src/components/elements/molecules/Blurb'
-import Form from '../src/components/elements/molecules/Form'
 import Grid from '../src/components/elements/molecules/Grid'
 import Section from '../src/components/elements/molecules/Section'
 
@@ -56,10 +54,8 @@ export {
   GlobalStyle,
   media,
   Btn,
-  Input,
   Link,
   Blurb,
-  Form,
   Grid,
   Section,
   Header,
