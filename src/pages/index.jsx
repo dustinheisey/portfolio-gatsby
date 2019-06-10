@@ -28,6 +28,7 @@ export default () => {
       btn={Content.btn}
       title={Content.title}
       description={Content.description}
+      index
     >
       <Intro />
       <Services />

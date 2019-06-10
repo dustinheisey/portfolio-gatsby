@@ -1,6 +1,6 @@
 import { React, Helmet } from '../../../../config/imports'
 
-export default ({ title, description }) => (
+export default ({ title, description, index }) => (
   <Helmet
     title={title}
     meta={[
@@ -39,5 +39,8 @@ export default ({ title, description }) => (
     ]}
   >
     <html lang='en' />
+    {index && (
+      <script src='https://identity.netlify.com/v1/netlify-identity-widget.js' />
+    )}
   </Helmet>
 )

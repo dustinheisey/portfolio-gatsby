@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "dev": "gatsby develop",
+    "dev": "netlify dev",
     "build": "gatsby build",
     "serve": "gatsby serve"
   },

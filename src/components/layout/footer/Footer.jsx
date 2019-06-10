@@ -5,7 +5,6 @@ import {
   styled,
   media,
   Copywrite,
-  Input,
   Btn,
   Link
 } from '../../../../config/imports'
