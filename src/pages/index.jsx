@@ -5,7 +5,8 @@ import Services from '../components/modules/index/Services'
 import Project from '../components/modules/index/Project'
 
 const Content = {
-  title: 'Dustin Heisey | Portfolio',
+  title:
+    'Portland Web Design & Progressive Web Apps  Dustin Heisey',
   description:
     'I make digital experiences that your users will love and give you an impressive online presence.',
   heading:

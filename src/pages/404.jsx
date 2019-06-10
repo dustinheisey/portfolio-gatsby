@@ -2,7 +2,8 @@ import { React, Bare } from '../../config/imports'
 import Error from '../components/modules/404/error'
 
 const Content = {
-  title: '404: Not found | Dustin Heisey'
+  title:
+    'The page your looking for isn&apos;t here | Dustin Heisey'
 }
 export default () => (
   <Bare title={Content.title}>

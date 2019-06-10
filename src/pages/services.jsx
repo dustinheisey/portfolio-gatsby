@@ -5,7 +5,8 @@ import WebDesign from '../components/modules/services/WebDesign'
 import PWA from '../components/modules/services/PWA'
 
 const Content = {
-  title: 'Services | Dustin Heisey',
+  title:
+    'Helping Portland Businesses With Key Web Services | Dustin Heisey',
   description:
     'With strong values behind every decision I make, I can help your business succeed while also leaving your customers happy, and the world better off.',
   heading:

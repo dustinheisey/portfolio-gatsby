@@ -4,7 +4,8 @@ import Info from '../components/modules/design/Info'
 import Results from '../components/modules/design/Results'
 
 const Content = {
-  title: 'Custom Web Design | Dustin Heisey',
+  title:
+    'Web Design Personalized & Optimized Just For You | Dustin Heisey',
   description:
     'I create a beautiful experience for your users, showcasing your business in the best light possible, without compromising on speed or reliability.',
   heading:

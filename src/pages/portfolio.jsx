@@ -5,7 +5,8 @@ import Aerials from '../components/modules/portfolio/Aerials'
 import Honey from '../components/modules/portfolio/Honey'
 
 const Content = {
-  title: 'Portfolio | Dustin Heisey',
+  title:
+    'How I&apos;ve Helped Some Local Businesses Recently | Dustin Heisey',
   description:
     'Welcome to my portfolio. Check out some of my recent work and maybe gather some inspiration for your next project.'
 }

@@ -4,7 +4,8 @@ import Optimize from '../components/modules/optimize/Optimize'
 import Maintenance from '../components/modules/optimize/Maintenance'
 
 const Content = {
-  title: 'Optimization & Maintenance | Dustin Heisey',
+  title:
+    'Optimization and Maintenance for Portland Businesses | Dustin Heisey',
   description:
     "The web is constantly changing, and your business is constantly growing. Let me keep your site up to date and working while you deal with the new business you're getting.",
   heading:

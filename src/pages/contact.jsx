@@ -3,7 +3,8 @@ import { React, Bare } from '../../config/imports'
 import Grid from '../components/modules/contact/Grid'
 
 const Content = {
-  title: 'Contact | Dustin Heisey',
+  title:
+    'Let&apos;s Get Coffee, Maybe Start a Project | Dustin Heisey',
   description:
     'Interested in learning more about how I can help? Check out how now!'
 }
