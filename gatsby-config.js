@@ -15,14 +15,6 @@ module.exports = {
         name: 'images'
       }
     },
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     path: `${__dirname}/_posts/blog`,
-    //     name: 'blog'
-    //   }
-    // },
-    // 'gatsby-transformer-remark',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-react-helmet',
