@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { graphql, StaticQuery } from 'gatsby'
 import BackgroundImage from 'gatsby-background-image'
 import {
@@ -193,7 +194,7 @@ const Cover = ({
           <Footer />
           {index && (
             <script>
-              if(typeof window !== undefined &&
+              if(typeof window !== 'undefined' &&
               window.netlifyIdentity)
               {window.netlifyIdentity.on('init', user => {
                 if (!user) {
