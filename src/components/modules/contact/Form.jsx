@@ -24,6 +24,14 @@ export default () => (
         >
           hello@dustinheisey.com
         </Link>
+        ,&nbsp;message me on&nbsp;
+        <Link
+          external
+          dark
+          to='https://twitter.com/heisey_dustin'
+        >
+          Twitter
+        </Link>
         &nbsp;or fill out the form below and I&apos;ll get
         back to you ASAP.
       </p>
