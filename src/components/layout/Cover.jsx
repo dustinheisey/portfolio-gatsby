@@ -51,8 +51,7 @@ const Cover = ({
   img,
   btn,
   title,
-  description,
-  index
+  description
 }) => (
   <StaticQuery
     query={graphql`
@@ -143,11 +142,7 @@ const Cover = ({
       return (
         <>
           <GlobalStyle />
-          <SEO
-            title={title}
-            description={description}
-            index={index}
-          />
+          <SEO title={title} description={description} />
           <BackgroundImage
             Tag='section'
             className={className}
@@ -192,24 +187,6 @@ const Cover = ({
             <Coffee />
           </BackgroundImage>
           <Footer />
-          {/* {index && (
-            <script>
-              if(typeof window !== 'undefined') {
-                if(window.netlifyIdentity){
-                  window.netlifyIdentity.on('init', user => {
-                    if (!user) {
-                      window.netlifyIdentity.on('login', () => {
-                        document.location.href = '/admin/'
-                      })
-                    }
-                  })
-                }
-                else {}
-              }
-              else
-              {}
-            </script>
-          )} */}
         </>
       )
     }}
