@@ -4,7 +4,7 @@ import Grid from '../components/modules/contact/Grid'
 
 const Content = {
   title:
-    'Let&apos;s Get Coffee, Maybe Start a Project | Dustin Heisey',
+    "Let's Get Coffee, Maybe Start a Project | Dustin Heisey",
   description:
     'Interested in learning more about how I can help? Check out how now!'
 }

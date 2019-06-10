@@ -6,7 +6,7 @@ import Project from '../components/modules/index/Project'
 
 const Content = {
   title:
-    'Portland Web Design & Progressive Web Apps  Dustin Heisey',
+    'Portland Web Design & Progressive Web Apps | Dustin Heisey',
   description:
     'I make digital experiences that your users will love and give you an impressive online presence.',
   heading:
