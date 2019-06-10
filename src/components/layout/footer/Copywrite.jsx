@@ -5,6 +5,8 @@ import {
   Link
 } from '../../../../config/imports'
 
+import Twitter from '../../../media/svg/inline/logo-twitter.svg'
+
 const StyledContainer = styled.div`
   display: flex;
   align-items: center;
@@ -44,6 +46,14 @@ export default () => (
           Trinamic Studio LLC
         </Link>
       </small>
+    </div>
+    <div style={{ display: 'flex', alignItems: 'center' }}>
+      <Link external to='https://twitter.com/heisey_dustin'>
+        <Twitter
+          width='4vmin'
+          style={{ marginLeft: 'var(--md)' }}
+        />
+      </Link>
     </div>
   </StyledContainer>
 )
