@@ -26,6 +26,12 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-react-helmet',
+    {
+      resolve: `gatsby-plugin-gosquared`,
+      options: {
+        token: 'GSN-995552-V'
+      }
+    },
     'gatsby-plugin-styled-components',
     {
       resolve: 'gatsby-plugin-typography',

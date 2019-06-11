@@ -13,6 +13,7 @@
     "gatsby-plugin-advanced-sitemap": "^1.0.6",
     "gatsby-plugin-canonical-urls": "^2.0.13",
     "gatsby-plugin-google-analytics": "^2.0.20",
+    "gatsby-plugin-gosquared": "^1.0.1",
     "gatsby-plugin-manifest": "^2.1.1",
     "gatsby-plugin-netlify": "^2.0.17",
     "gatsby-plugin-netlify-cms": "^4.0.1",
