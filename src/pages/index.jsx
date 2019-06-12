@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { React, Cover, Btn } from '../../config/imports'
 
 import Intro from '../components/modules/index/Intro'
@@ -20,6 +21,9 @@ const Content = {
 }
 
 export default () => {
+  setTimeout(() => {
+    _gs('track')
+  }, 1000)
   return (
     <Cover
       img={Content.index}
