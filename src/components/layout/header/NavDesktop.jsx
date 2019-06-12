@@ -179,6 +179,16 @@ export default ({ light }) => {
               <StyledTextLight>Portfolio</StyledTextLight>
             </StyledLink>
           </li>
+          <li
+            style={{
+              display: 'flex',
+              alignItems: 'center'
+            }}
+          >
+            <StyledLink to='/blog'>
+              <StyledTextLight>Blog</StyledTextLight>
+            </StyledLink>
+          </li>
         </ul>
       </MenuArea>
     )
@@ -237,6 +247,11 @@ export default ({ light }) => {
         <li>
           <StyledLink dark to='/portfolio'>
             Portfolio
+          </StyledLink>
+        </li>
+        <li>
+          <StyledLink dark to='/blog'>
+            Blog
           </StyledLink>
         </li>
       </ul>

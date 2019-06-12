@@ -119,6 +119,11 @@ class NavMobile extends Component {
                 </Link>
               </li>
               <li>
+                <Link to='/blog' dark>
+                  Blog
+                </Link>
+              </li>
+              <li>
                 <Link to='/contact' dark>
                   Contact
                 </Link>

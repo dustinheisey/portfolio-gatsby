@@ -66,6 +66,11 @@ export default () => (
       </Link>
     </li>
     <li>
+      <Link dark to='/blog'>
+        Blog
+      </Link>
+    </li>
+    <li>
       <Link dark to='/contact'>
         Contact
       </Link>
