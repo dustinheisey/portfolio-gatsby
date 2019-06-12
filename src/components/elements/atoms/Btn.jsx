@@ -86,11 +86,14 @@ const Btn = ({
       </StyledPrimary>
     )
   }
-  return (
-    <StyledPrimary to={link} external={external}>
-      {content}
-    </StyledPrimary>
-  )
+  if (external) {
+    return (
+      <StyledPrimary as='a' href={link}>
+        {content}
+      </StyledPrimary>
+    )
+  }
+  return <StyledPrimary to={link}>{content}</StyledPrimary>
 }
 
 export default Btn
