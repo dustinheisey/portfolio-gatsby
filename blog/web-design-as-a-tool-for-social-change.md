@@ -3,6 +3,7 @@ path: /blog/web-design-as-a-tool-for-social-change
 date: 2019-06-12T19:31:54.787Z
 title: Web Design as a Tool for Social Change
 ---
+
 We live in a time of alarming change. The earth is getting dangerously hotter, the oceans are rising, natural disasters are getting more intense and happening more quickly each day, diseases are becoming more prevalent and resistant to our antibiotics, agriculture is becoming less productive as a result of the shifting temperature zones, the air is getting unbreathable, and there is rising political instability all across the world.
 
 Perhaps it is the exponential growth of our communicative abilities that has created a cloud of anxiety and distrust in our fellow human, filtering our everyday perspectives on life. Perhaps it is the cumulative effects of prioritizing short term gain over long term sustainability, compounding until it creates noticeable and now alarming issues in the global ecology of this planet. Perhaps it is a trial in the never-ending quest of the human species to claim conquest over nature that we have miserably failed at. Perhaps it is the mindless result of a chain of causes and effects that were destined to lead us to our current predicament.
@@ -23,19 +24,17 @@ A study by the Pew Research Institute found that America ranked 31st out of the 
 
 People in Portland, The Pacific Northwest, and even the country as a whole are starting to strive towards more local, ethical, and environmentally friendly consumption. This is powerful. Each individual makes dozens of daily choices on how to consume the money that they earned by sacrificing their time and energy to work towards a businesses' goals that may or may not align with their own. Many people are not in the position to migrate to a job that is aligned with their goals, however, every individual is in control of what they consume. By supporting local, ethical and environmentally friendly businesses you are creating a direct and indirect benefit to your society and the world. Directly, you are producing fewer emissions, less waste, and less suffering. Indirectly you are voting to tip the balance away from big businesses who have abandoned all concern for the environment and the life that inhabits it.
 
-## Web Design as a Tool for Social Change
-
-### Positive Propaganda
+## Positive Propaganda
 
 In many ways, a website can be a propaganda machine. Those words may inspire a negative emotion or two, however, as much as it can help elect a representative who's goals are not aligned with the rest of the country, it can inspire a positive social movement that, once allowed to take root, compounds quickly. Designing for movements that align with this call to stop fighting the earth and start repairing the damage we have caused to it help to tip the balance in favor of said call, To change the ethos that pervades the minds of our society, and help give people who want to save this planet the power to do so.
 
-### Helping Local Businesses
+## Helping Local Businesses
 
 Carefully considered, human-centric web design is a powerful tool in the arsenal of small and local businesses to persuade consumers to help them have a larger impact than any individual can have on their own. Systems are more powerful than individual choices. Creating a website that speaks directly to people like the humans they are and motivates them to vote for a better future with their dollars, is a rather large upgrade to the system that is your local business, and it can enable you to have a much greater impact on your community.
 
 This century began with the pervasive mentality that the pursuit of benefiting the individual can benefit society as a whole. This perspective has to change. This change is not some idealized fantasy or an unrealistic goal. It is essential for the continuation of our species. The current perspective must be superseded by the idea that what benefits society is beneficial for each individual. The pursuit of positive social change is beneficial for each of its inhabitants. And each of its inhabitants has a role to play in saving our society and our planet.
 
-Sources: 
+Sources:
 
 [http://www.informationclearinghouse.info/47409.htm](http://www.informationclearinghouse.info/47409.htm)
 

@@ -21,7 +21,7 @@ export default createGlobalStyle`
     /* Text Colors */
     --text-darker: #011409;
     --text-dark: #2D3631;
-    --text: #dedede;
+    --text: #bcbcbc;
     --text-light: #cdcdcd;
     --text-lighter: #F8FFFB;
 
