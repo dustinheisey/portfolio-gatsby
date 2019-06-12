@@ -21,9 +21,6 @@ const Content = {
 }
 
 export default () => {
-  setTimeout(() => {
-    _gs('track')
-  }, 1000)
   return (
     <Cover
       img={Content.index}
