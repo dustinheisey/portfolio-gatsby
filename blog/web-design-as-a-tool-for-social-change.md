@@ -1,7 +1,9 @@
 ---
 path: /blog/web-design-as-a-tool-for-social-change
 date: 2019-06-12T19:31:54.787Z
+caption: Existential Problems
 title: Web Design as a Tool for Social Change
+excerpt: We live in a time of alarming change. The earth is getting dangerously hotter, the oceans are rising, natural disasters are getting more intense and happening more quickly each day, diseases are becoming more prevalent and resistant to our antibiotics, agriculture is becoming less productive as a result of the shifting temperature zones, the air is getting unbreathable, and there is rising political instability all across the world.
 ---
 
 We live in a time of alarming change. The earth is getting dangerously hotter, the oceans are rising, natural disasters are getting more intense and happening more quickly each day, diseases are becoming more prevalent and resistant to our antibiotics, agriculture is becoming less productive as a result of the shifting temperature zones, the air is getting unbreathable, and there is rising political instability all across the world.

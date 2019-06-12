@@ -118,9 +118,7 @@ const Cover = ({
             }
           }
         }
-        gradient: file(
-          relativePath: { eq: "gradient.png" }
-        ) {
+        peak: file(relativePath: { eq: "peak.jpg" }) {
           childImageSharp {
             fluid(quality: 90, maxWidth: 4160) {
               ...GatsbyImageSharpFluid
@@ -139,6 +137,7 @@ const Cover = ({
       imageData[5] = data.pwa.childImageSharp.fluid
       imageData[6] = data.optimize.childImageSharp.fluid
       imageData[7] = data.coffee.childImageSharp.fluid
+      imageData[8] = data.peak.childImageSharp.fluid
       return (
         <>
           <GlobalStyle />
