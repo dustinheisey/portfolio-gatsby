@@ -10,7 +10,7 @@ export default function Template({
   return (
     <Bare
       heading={frontmatter.title}
-      title={frontmatter.title}
+      title={`${frontmatter.title} | Blog | Dustin Heisey`}
       description={frontmatter.description}
       index
     >
