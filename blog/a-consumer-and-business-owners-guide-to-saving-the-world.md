@@ -1,7 +1,7 @@
 ---
 path: /blog/a-consumer-and-business-owners-guide-to-saving-the-world
 date: 2019-06-18T19:31:54.787Z
-caption: Climate Change
+caption: Positive Impacts
 title: A Consumer and Business Owners' Guide to Saving the World
 excerpt: We live in a time of alarming change. The earth is getting hotter at an increasing speed than ever before in human history, and it's beginning to show disastrous consequences. There is a growing focus on this dangerous future that is quickly becoming the present, and there are many who wonder what can be done to avert this crisis.
 ---

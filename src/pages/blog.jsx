@@ -28,7 +28,7 @@ export default ({ data }) => (
           primary
           key={post.node.id}
           link={post.node.frontmatter.path}
-          content={`Read ${post.node.frontmatter.title}`}
+          content="Read Post"
         />
       </div>
     ))}
